@@ -1,11 +1,11 @@
 $(function () {
-  $(".scroll-down").click(function () {
-    $("html, body").animate(
-      { scrollTop: $(".section--about").offset().top },
-      "fast"
-    );
-    return false;
-  });
+  // $(".scroll-down").click(function () {
+  //   $("html, body").animate(
+  //     { scrollTop: $(".section--about").offset().top },
+  //     "fast"
+  //   );
+  //   return false;
+  // });
 
   var lastScroll = 0;
   var header = $(".navbar").outerHeight();
@@ -38,8 +38,11 @@ $(function () {
       itemSelector: ".filter-item",
       layoutMode: "fitRows",
       fitRows: {
-        gutter: 16,
+        // gutter: 16,
       },
+      // masonry: {
+      //   columnWidth: 158,
+      // },
       filter: ".flowers",
     });
     $(".products-group--isotope").css({ opacity: 1 });
@@ -51,11 +54,37 @@ $(function () {
     // filterValue = filterFns[ filterValue ] || filterValue;
     $grid.isotope({ filter: filterValue });
   });
+
+  $(".js-testimonials").slick({
+    dots: true,
+    slidesToShow: 1,
+    arrows: false,
+    adaptiveHeight: true,
+    autoplay: true,
+  });
+
+  function calccontactHeight() {
+    if (".contact-info".length > 0) {
+      var contactHeight = $(".contact-info").outerHeight();
+      $("body").css("--contactHeight", contactHeight + "px");
+      console.log(contactHeight);
+    }
+  }
+  calccontactHeight();
+
+  $(window).on("resize", function () {
+    calccontactHeight();
+  });
+
+  $(".js-counter").countUp({
+    time: 2000,
+    delay: 10,
+  });
 });
 
 (function () {
   "use strict";
-
+  AOS.init();
   // document
   //   .querySelector("#navbarSideCollapse")
   //   .addEventListener("click", function () {
