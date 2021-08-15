@@ -39,6 +39,7 @@ img {
 
 html {
   scroll-behavior: smooth;
+  overflow-x: hidden;
 }
 
 body {
@@ -346,10 +347,8 @@ blockquote {
 }
 
 .filters-button-group .btn.is-checked {
-  border-style: dashed;
-  border-color: currentcolor;
-  border-width: 2px;
-  color: #70a742;
+  color: white;
+  background-color: #70a742;
   font-weight: bold;
 }
 
