@@ -337,23 +337,38 @@ blockquote {
  */
 .filters-button-group {
   display: flex;
-  gap: 16px;
+  flex-flow: wrap;
   justify-content: center;
 }
 
 .filters-button-group .btn {
   text-transform: capitalize;
   transform: 0.3s;
+  margin: 8px;
 }
 
 .filters-button-group .btn.is-checked {
-  color: white;
-  background-color: #70a742;
+  border-style: dashed;
+  border-color: currentcolor;
+  border-width: 2px;
+  color: #70a742;
+  background-color: white;
   font-weight: bold;
 }
 
 .filters-button-group .btn.is-checked:hover {
+  color: #70a742;
+  background-color: white;
+}
+
+.filters-button-group .btn:hover {
   color: white;
+  background-color: #70a742;
+}
+
+.filters-button-group .btn:focus {
+  outline: none;
+  box-shadow: none;
 }
 
 .gutter-sizer {
