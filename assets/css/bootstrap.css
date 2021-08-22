@@ -3540,13 +3540,13 @@ fieldset:disabled .btn {
   min-width: 10rem;
   padding: 0.5rem 0;
   margin: 0;
-  font-size: 0.813rem;
-  color: #212529;
+  font-size: 1rem;
+  color: white;
   text-align: left;
   list-style: none;
-  background-color: #fff;
+  background-color: #152816;
   background-clip: padding-box;
-  border: 1px solid rgba(0, 0, 0, 0.15);
+  border: 1px solid #152816;
   border-radius: 0.25rem;
 }
 
@@ -3749,16 +3749,16 @@ fieldset:disabled .btn {
   height: 0;
   margin: 0.5rem 0;
   overflow: hidden;
-  border-top: 1px solid rgba(0, 0, 0, 0.15);
+  border-top: 1px solid white;
 }
 
 .dropdown-item {
   display: block;
   width: 100%;
-  padding: 0.25rem 1rem;
+  padding: 0.25rem 24px;
   clear: both;
   font-weight: 400;
-  color: #212529;
+  color: white;
   text-align: inherit;
   text-decoration: none;
   white-space: nowrap;
@@ -3767,8 +3767,8 @@ fieldset:disabled .btn {
 }
 
 .dropdown-item:hover, .dropdown-item:focus {
-  color: #1e2125;
-  background-color: #e9ecef;
+  color: rgba(255, 255, 255, 0.75);
+  background-color: transparent;
 }
 
 .dropdown-item.active, .dropdown-item:active {
@@ -3789,7 +3789,7 @@ fieldset:disabled .btn {
 
 .dropdown-header {
   display: block;
-  padding: 0.5rem 1rem;
+  padding: 0.5rem 24px;
   margin-bottom: 0;
   font-size: 0.71138rem;
   color: #6c757d;
@@ -3804,14 +3804,14 @@ fieldset:disabled .btn {
 
 .dropdown-item-text {
   display: block;
-  padding: 0.25rem 1rem;
-  color: #212529;
+  padding: 0.25rem 24px;
+  color: white;
 }
 
 .dropdown-menu-dark {
   color: #dee2e6;
   background-color: #343a40;
-  border-color: rgba(0, 0, 0, 0.15);
+  border-color: #152816;
 }
 
 .dropdown-menu-dark .dropdown-item {
@@ -3833,7 +3833,7 @@ fieldset:disabled .btn {
 }
 
 .dropdown-menu-dark .dropdown-divider {
-  border-color: rgba(0, 0, 0, 0.15);
+  border-color: white;
 }
 
 .dropdown-menu-dark .dropdown-item-text {
