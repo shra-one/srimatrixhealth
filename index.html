@@ -10,7 +10,7 @@
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
-      href="https://fonts.googleapis.com/css2?family=Rubik:wght@400;500;600;700&display=swap"
+      href="https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,100..900;1,100..900&family=Sora:wght@100..800&display=swap"
       rel="stylesheet"
     />
     <link
@@ -26,20 +26,43 @@
 
     <link rel="stylesheet" href="./assets/css/app.css" />
 
-    <title>Consortium Nepal</title>
+    <title>Food For Life</title>
   </head>
 
   <body>
     <div id="app" class="app">
       <div class="app-wrapper">
-        <header id="header" class="header sticky-top">
-          <nav
-            class="navbar bg-white navbar-light navbar-expand-xl header-main"
+        <a href="#" role="button" class="btn btn-primary btn--fixedCTA">
+          <span class="btn-label">Donate Now</span>
+          <svg
+            width="20"
+            height="20"
+            viewBox="0 0 20 20"
+            fill="none"
+            xmlns="http://www.w3.org/2000/svg"
           >
+            <path
+              d="M18.9945 11.5204C18.7902 11.3629 18.5559 11.2486 18.3059 11.1845C18.0559 11.1205 17.7956 11.108 17.5406 11.1477C19.0078 9.66648 19.75 8.19382 19.75 6.75007C19.75 4.6821 18.0867 3.00007 16.0422 3.00007C15.4997 2.99667 14.963 3.11205 14.4699 3.33811C13.9767 3.56418 13.539 3.89545 13.1875 4.30867C12.836 3.89545 12.3983 3.56418 11.9051 3.33811C11.412 3.11205 10.8753 2.99667 10.3328 3.00007C8.28828 3.00007 6.625 4.6821 6.625 6.75007C6.625 7.60945 6.87812 8.4446 7.41094 9.3282C6.97456 9.43875 6.57632 9.66555 6.25859 9.98445L4.49141 11.7501H2.25C1.91848 11.7501 1.60054 11.8818 1.36612 12.1162C1.1317 12.3506 1 12.6686 1 13.0001L1 16.1251C1 16.4566 1.1317 16.7745 1.36612 17.009C1.60054 17.2434 1.91848 17.3751 2.25 17.3751H10.375C10.4261 17.3751 10.477 17.3688 10.5266 17.3563L15.5266 16.1063C15.5584 16.0987 15.5895 16.0883 15.6195 16.0751L18.6562 14.7829L18.6906 14.7673C18.9825 14.6214 19.2324 14.4037 19.4168 14.1346C19.6013 13.8655 19.7142 13.5538 19.7449 13.229C19.7756 12.9042 19.7231 12.5769 19.5924 12.278C19.4617 11.9791 19.257 11.7183 18.9977 11.5204H18.9945ZM10.3328 4.25007C10.8169 4.24299 11.2921 4.38044 11.6976 4.64486C12.1031 4.90928 12.4206 5.28865 12.6094 5.73445C12.6565 5.84908 12.7366 5.94713 12.8395 6.01613C12.9424 6.08513 13.0636 6.12197 13.1875 6.12197C13.3114 6.12197 13.4326 6.08513 13.5355 6.01613C13.6384 5.94713 13.7185 5.84908 13.7656 5.73445C13.9544 5.28865 14.2719 4.90928 14.6774 4.64486C15.0829 4.38044 15.5581 4.24299 16.0422 4.25007C17.3742 4.25007 18.5 5.3946 18.5 6.75007C18.5 8.27429 17.2664 9.99851 14.9328 11.7423L14.0664 11.9415C14.1425 11.6202 14.1448 11.2859 14.0733 10.9636C14.0017 10.6413 13.8582 10.3394 13.6534 10.0805C13.4486 9.82156 13.1878 9.61235 12.8907 9.46854C12.5935 9.32473 12.2676 9.25004 11.9375 9.25007H8.86563C8.19141 8.3407 7.875 7.5407 7.875 6.75007C7.875 5.3946 9.00078 4.25007 10.3328 4.25007ZM2.25 13.0001H4.125V16.1251H2.25V13.0001ZM18.143 13.6415L15.1742 14.9055L10.2969 16.1251H5.375V12.6337L7.14297 10.8665C7.25862 10.7499 7.39629 10.6575 7.54798 10.5946C7.69967 10.5317 7.86235 10.4995 8.02656 10.5001H11.9375C12.1861 10.5001 12.4246 10.5988 12.6004 10.7747C12.7762 10.9505 12.875 11.1889 12.875 11.4376C12.875 11.6862 12.7762 11.9247 12.6004 12.1005C12.4246 12.2763 12.1861 12.3751 11.9375 12.3751H9.75C9.58424 12.3751 9.42527 12.4409 9.30806 12.5581C9.19085 12.6753 9.125 12.8343 9.125 13.0001C9.125 13.1658 9.19085 13.3248 9.30806 13.442C9.42527 13.5592 9.58424 13.6251 9.75 13.6251H12.25C12.297 13.6249 12.3439 13.6197 12.3898 13.6094L17.6242 12.4055L17.6484 12.3993C17.8082 12.3549 17.9788 12.3712 18.1273 12.4451C18.2758 12.5189 18.3917 12.645 18.4528 12.7992C18.5139 12.9534 18.5158 13.1247 18.4582 13.2802C18.4005 13.4357 18.2874 13.5644 18.1406 13.6415H18.143Z"
+              fill="white"
+            ></path>
+          </svg>
+        </a>
+        <header id="header" class="header fixed-top">
+          <nav class="navbar navbar-light navbar-expand-xl header-main">
             <div class="container">
-              <a class="navbar-brand" href="#"
-                ><img src="./assets/img/logo.png" alt="Consortium Nepal Logo"
-              /></a>
+              <a class="navbar-brand" href="#">
+                <img
+                  src="./assets/img/logo.png"
+                  class="logo-desktop d-xl-block d-none"
+                  alt="Food For Life Logo"
+                />
+                <img
+                  src="./assets/img/favicon.png"
+                  class="logo-mobile d-xl-none d-block"
+                  alt="Food For Life Logo"
+                  width="30"
+                />
+              </a>
               <button
                 class="navbar-toggler"
                 type="button"
@@ -72,8 +95,61 @@
                   <ul
                     class="navbar-nav navbar-nav--menu justify-content-end gap-2 flex-grow-1 pe-3"
                   >
-                    <li class="nav-item active">
-                      <a class="nav-link" href="#">Home</a>
+                    <li class="nav-item dropdown">
+                      <a
+                        class="nav-link dropdown-toggle"
+                        href="#"
+                        role="button"
+                        data-bs-toggle="dropdown"
+                        aria-expanded="false"
+                      >
+                        Who We Are
+                      </a>
+                      <ul class="dropdown-menu">
+                        <li><a class="dropdown-item" href="#">History</a></li>
+                        <li>
+                          <a class="dropdown-item" href="#">About Us</a>
+                        </li>
+
+                        <li>
+                          <a class="dropdown-item" href="#">Our Team</a>
+                        </li>
+                        <li>
+                          <a class="dropdown-item" href="#">Our Impact</a>
+                        </li>
+                        <li>
+                          <a class="dropdown-item" href="#">Our Partners</a>
+                        </li>
+                        <li>
+                          <a class="dropdown-item" href="#">Knowledge Center</a>
+                        </li>
+                      </ul>
+                    </li>
+                    <li class="nav-item dropdown">
+                      <a
+                        class="nav-link dropdown-toggle"
+                        href="#"
+                        role="button"
+                        data-bs-toggle="dropdown"
+                        aria-expanded="false"
+                      >
+                        What We Do
+                      </a>
+                      <ul class="dropdown-menu">
+                        <li><a class="dropdown-item" href="#">Education</a></li>
+                        <li>
+                          <a class="dropdown-item" href="#"
+                            >Health and Nutrition</a
+                          >
+                        </li>
+
+                        <li>
+                          <a class="dropdown-item" href="#">Advocacy</a>
+                        </li>
+                      </ul>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link" href="#">Our Impact</a>
                     </li>
 
                     <li class="nav-item dropdown">
@@ -84,36 +160,21 @@
                         data-bs-toggle="dropdown"
                         aria-expanded="false"
                       >
-                        About Us
+                        Get Involved
                       </a>
                       <ul class="dropdown-menu">
-                        <li><a class="dropdown-item" href="#">Action</a></li>
+                        <li><a class="dropdown-item" href="#">Careers</a></li>
                         <li>
-                          <a class="dropdown-item" href="#">Another action</a>
+                          <a class="dropdown-item" href="#">Volunteers</a>
                         </li>
-                        <li><hr class="dropdown-divider" /></li>
+
                         <li>
-                          <a class="dropdown-item" href="#"
-                            >Something else here</a
-                          >
+                          <a class="dropdown-item" href="#">Contact us</a>
                         </li>
                       </ul>
                     </li>
                     <li class="nav-item">
-                      <a class="nav-link" href="#">Thematic Areas</a>
-                    </li>
-                    <li class="nav-item">
-                      <a class="nav-link" href="#">Projects</a>
-                    </li>
-
-                    <li class="nav-item">
-                      <a class="nav-link" href="#">Resources</a>
-                    </li>
-                    <li class="nav-item">
-                      <a class="nav-link" href="#">Get Involved</a>
-                    </li>
-                    <li class="nav-item">
-                      <a class="nav-link" href="#">Contact</a>
+                      <a class="nav-link" href="#">Knowledge Center</a>
                     </li>
                   </ul>
                 </div>
@@ -133,8 +194,7 @@
                 data-aos="fade-up"
                 data-aos-duration="1000"
               >
-                Reimagining the <br />
-                <span class="text-primary">Future</span> for Every Child
+                PROMOTING EDUCATION THROUGH FOOD
               </h1>
               <p
                 class="lead"
@@ -142,558 +202,598 @@
                 data-aos-duration="1000"
                 data-aos-delay="100"
               >
-                Far far away, behind the word mountains, far from the countries
-                Vokalia and Consonantia, there live the blind texts. Separated
-                they live in Bookmarksgrove.
+                Food for Life Nepal (FFLN) is a non-governmental, non-profit,
+                non-religious organization working for the welfare of children
+                in Nepal.
               </p>
               <div
-                class="d-grid gap-2 d-md-flex justify-content-md-start"
+                class="d-grid d-md-flex justify-content-md-start hero-btn-group"
                 data-aos="fade-up"
                 data-aos-duration="1000"
                 data-aos-delay="200"
                 data-aos-offset="0"
               >
-                <a
-                  href="#"
-                  role="button"
-                  class="btn btn-primary btn-lg px-4 me-md-2 hero-btn"
-                  >Learn More</a
-                >
+                <a href="#" role="button" class="btn btn-primary hero-btn"
+                  >Explore More
+                  <svg
+                    width="20"
+                    height="20"
+                    viewBox="0 0 20 20"
+                    fill="none"
+                    xmlns="http://www.w3.org/2000/svg"
+                  >
+                    <path
+                      d="M11.0673 10.4422L4.81729 16.6922C4.70002 16.8095 4.54096 16.8753 4.3751 16.8753C4.20925 16.8753 4.05019 16.8095 3.93292 16.6922C3.81564 16.5749 3.74976 16.4158 3.74976 16.25C3.74976 16.0841 3.81564 15.9251 3.93292 15.8078L9.74151 10L3.93292 4.19218C3.81564 4.07491 3.74976 3.91585 3.74976 3.75C3.74976 3.58414 3.81564 3.42508 3.93292 3.30781C4.05019 3.19053 4.20925 3.12465 4.3751 3.12465C4.54096 3.12465 4.70002 3.19053 4.81729 3.30781L11.0673 9.55781C11.1254 9.61585 11.1715 9.68478 11.203 9.76066C11.2344 9.83653 11.2506 9.91786 11.2506 10C11.2506 10.0821 11.2344 10.1635 11.203 10.2393C11.1715 10.3152 11.1254 10.3841 11.0673 10.4422ZM17.3173 9.55781L11.0673 3.30781C10.95 3.19053 10.791 3.12465 10.6251 3.12465C10.4593 3.12465 10.3002 3.19053 10.1829 3.30781C10.0656 3.42508 9.99976 3.58414 9.99976 3.75C9.99976 3.91585 10.0656 4.07491 10.1829 4.19218L15.9915 10L10.1829 15.8078C10.0656 15.9251 9.99976 16.0841 9.99976 16.25C9.99976 16.4158 10.0656 16.5749 10.1829 16.6922C10.3002 16.8095 10.4593 16.8753 10.6251 16.8753C10.791 16.8753 10.95 16.8095 11.0673 16.6922L17.3173 10.4422C17.3754 10.3841 17.4215 10.3152 17.453 10.2393C17.4844 10.1635 17.5006 10.0821 17.5006 10C17.5006 9.91786 17.4844 9.83653 17.453 9.76066C17.4215 9.68478 17.3754 9.61585 17.3173 9.55781Z"
+                      fill="white"
+                    />
+                  </svg>
+                </a>
+                <div class="hero-count">
+                  <span>10k +</span>
+                  Students served daily
+                </div>
               </div>
             </div>
           </div>
         </section>
-        <section class="section section--information">
+        <section class="section">
+          <div class="container">
+            <header class="section-header">
+              <h2
+                class="section-title mb-0"
+                data-aos="fade-up"
+                data-aos-duration="1000"
+              >
+                THEMATIC AREAS
+              </h2>
+            </header>
+            <div class="card-columns">
+              <a href="#" class="card card--image card--portrait">
+                <div class="card-header">
+                  <img src="./assets/img/education-icon.svg" alt="" />
+                </div>
+                <div class="card-footer">
+                  <h3 class="card-title stretched-link">EDUCATION</h3>
+                </div>
+                <img
+                  src="./assets/img/education-img.jpg"
+                  class="card-bgimage"
+                  alt=""
+                />
+              </a>
+              <a href="#" class="card card--image card--portrait">
+                <div class="card-header">
+                  <img src="./assets/img/health-icon.svg" alt="" />
+                </div>
+                <div class="card-footer">
+                  <h3 class="card-title stretched-link">HEALTH & NUTRITION</h3>
+                </div>
+                <img
+                  src="./assets/img/health-img.jpg"
+                  class="card-bgimage"
+                  alt=""
+                />
+              </a>
+              <a href="#" class="card card--image card--portrait">
+                <div class="card-header">
+                  <img src="./assets/img/advocacy-icon.svg" alt="" />
+                </div>
+                <div class="card-footer">
+                  <h3 class="card-title stretched-link">ADVOCACY</h3>
+                </div>
+                <img
+                  src="./assets/img/advocacy-img.jpg"
+                  class="card-bgimage"
+                  alt=""
+                />
+              </a>
+            </div>
+          </div>
+        </section>
+        <section class="section">
+          <div class="container">
+            <header class="section-header">
+              <h2
+                class="section-title mb-0"
+                data-aos="fade-up"
+                data-aos-duration="1000"
+              >
+                LATEST UPDATES
+              </h2>
+              <a href="#" class="btn btn-link"
+                >VIEW ALL
+                <svg
+                  width="20"
+                  height="20"
+                  viewBox="0 0 20 20"
+                  fill="none"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <path
+                    d="M16.6923 7.94217L10.4423 14.1922C10.3842 14.2503 10.3153 14.2964 10.2394 14.3278C10.1636 14.3593 10.0822 14.3755 10.0001 14.3755C9.91797 14.3755 9.83664 14.3593 9.76077 14.3278C9.68489 14.2964 9.61596 14.2503 9.55792 14.1922L3.30792 7.94217C3.19064 7.82489 3.12476 7.66583 3.12476 7.49998C3.12476 7.33413 3.19064 7.17507 3.30792 7.05779C3.42519 6.94052 3.58425 6.87463 3.7501 6.87463C3.91596 6.87463 4.07502 6.94052 4.19229 7.05779L10.0001 12.8664L15.8079 7.05779C15.866 6.99972 15.9349 6.95366 16.0108 6.92224C16.0867 6.89081 16.168 6.87463 16.2501 6.87463C16.3322 6.87463 16.4135 6.89081 16.4894 6.92224C16.5653 6.95366 16.6342 6.99972 16.6923 7.05779C16.7504 7.11586 16.7964 7.1848 16.8278 7.26067C16.8593 7.33654 16.8755 7.41786 16.8755 7.49998C16.8755 7.5821 16.8593 7.66342 16.8278 7.73929C16.7964 7.81516 16.7504 7.8841 16.6923 7.94217Z"
+                    fill="currentColor"
+                  />
+                </svg>
+              </a>
+            </header>
+            <div class="card-columns card-columns--grid">
+              <a href="#" class="card card--image card--one">
+                <div class="card-header">
+                  <span class="badge">Education</span>
+                </div>
+                <div class="card-footer">
+                  <h3 class="card-title stretched-link">
+                    More Than a Meal: Food for Life Nepal's Recipe for Education
+                    and Hope
+                  </h3>
+                  <div class="btn btn-link">
+                    Read more
+                    <svg
+                      width="20"
+                      height="20"
+                      viewBox="0 0 20 20"
+                      fill="none"
+                      xmlns="http://www.w3.org/2000/svg"
+                    >
+                      <path
+                        d="M11.0673 10.4422L4.81729 16.6922C4.70002 16.8094 4.54096 16.8753 4.3751 16.8753C4.20925 16.8753 4.05019 16.8094 3.93292 16.6922C3.81564 16.5749 3.74976 16.4158 3.74976 16.25C3.74976 16.0841 3.81564 15.9251 3.93292 15.8078L9.74151 9.99998L3.93292 4.19217C3.81564 4.07489 3.74976 3.91583 3.74976 3.74998C3.74976 3.58413 3.81564 3.42507 3.93292 3.30779C4.05019 3.19052 4.20925 3.12463 4.3751 3.12463C4.54096 3.12463 4.70002 3.19052 4.81729 3.30779L11.0673 9.55779C11.1254 9.61584 11.1715 9.68477 11.203 9.76064C11.2344 9.83652 11.2506 9.91785 11.2506 9.99998C11.2506 10.0821 11.2344 10.1634 11.203 10.2393C11.1715 10.3152 11.1254 10.3841 11.0673 10.4422ZM17.3173 9.55779L11.0673 3.30779C10.95 3.19052 10.791 3.12463 10.6251 3.12463C10.4593 3.12463 10.3002 3.19052 10.1829 3.30779C10.0656 3.42507 9.99976 3.58413 9.99976 3.74998C9.99976 3.91583 10.0656 4.07489 10.1829 4.19217L15.9915 9.99998L10.1829 15.8078C10.0656 15.9251 9.99976 16.0841 9.99976 16.25C9.99976 16.4158 10.0656 16.5749 10.1829 16.6922C10.3002 16.8094 10.4593 16.8753 10.6251 16.8753C10.791 16.8753 10.95 16.8094 11.0673 16.6922L17.3173 10.4422C17.3754 10.3841 17.4215 10.3152 17.453 10.2393C17.4844 10.1634 17.5006 10.0821 17.5006 9.99998C17.5006 9.91785 17.4844 9.83652 17.453 9.76064C17.4215 9.68477 17.3754 9.61584 17.3173 9.55779Z"
+                        fill="currentColor"
+                      />
+                    </svg>
+                  </div>
+                </div>
+                <img
+                  src="./assets/img/more-than-a-meal.jpg"
+                  class="card-bgimage"
+                  alt=""
+                />
+              </a>
+              <a href="#" class="card card--image card--two">
+                <div class="card-header">
+                  <span class="badge">Nutrition</span>
+                </div>
+                <div class="card-footer">
+                  <h3 class="card-title stretched-link">
+                    Spoonfuls of Hope: Food for Life Nepal's Fight Ag...
+                  </h3>
+                  <div class="btn btn-link">
+                    Read more
+                    <svg
+                      width="20"
+                      height="20"
+                      viewBox="0 0 20 20"
+                      fill="none"
+                      xmlns="http://www.w3.org/2000/svg"
+                    >
+                      <path
+                        d="M11.0673 10.4422L4.81729 16.6922C4.70002 16.8094 4.54096 16.8753 4.3751 16.8753C4.20925 16.8753 4.05019 16.8094 3.93292 16.6922C3.81564 16.5749 3.74976 16.4158 3.74976 16.25C3.74976 16.0841 3.81564 15.9251 3.93292 15.8078L9.74151 9.99998L3.93292 4.19217C3.81564 4.07489 3.74976 3.91583 3.74976 3.74998C3.74976 3.58413 3.81564 3.42507 3.93292 3.30779C4.05019 3.19052 4.20925 3.12463 4.3751 3.12463C4.54096 3.12463 4.70002 3.19052 4.81729 3.30779L11.0673 9.55779C11.1254 9.61584 11.1715 9.68477 11.203 9.76064C11.2344 9.83652 11.2506 9.91785 11.2506 9.99998C11.2506 10.0821 11.2344 10.1634 11.203 10.2393C11.1715 10.3152 11.1254 10.3841 11.0673 10.4422ZM17.3173 9.55779L11.0673 3.30779C10.95 3.19052 10.791 3.12463 10.6251 3.12463C10.4593 3.12463 10.3002 3.19052 10.1829 3.30779C10.0656 3.42507 9.99976 3.58413 9.99976 3.74998C9.99976 3.91583 10.0656 4.07489 10.1829 4.19217L15.9915 9.99998L10.1829 15.8078C10.0656 15.9251 9.99976 16.0841 9.99976 16.25C9.99976 16.4158 10.0656 16.5749 10.1829 16.6922C10.3002 16.8094 10.4593 16.8753 10.6251 16.8753C10.791 16.8753 10.95 16.8094 11.0673 16.6922L17.3173 10.4422C17.3754 10.3841 17.4215 10.3152 17.453 10.2393C17.4844 10.1634 17.5006 10.0821 17.5006 9.99998C17.5006 9.91785 17.4844 9.83652 17.453 9.76064C17.4215 9.68477 17.3754 9.61584 17.3173 9.55779Z"
+                        fill="currentColor"
+                      />
+                    </svg>
+                  </div>
+                </div>
+                <img
+                  src="./assets/img/spoonfuls-of-hope.jpg"
+                  class="card-bgimage"
+                  alt=""
+                />
+              </a>
+              <a href="#" class="card card--image card--three">
+                <div class="card-header">
+                  <span class="badge">Food</span>
+                </div>
+                <div class="card-footer">
+                  <h3 class="card-title stretched-link">
+                    A Plate of Hope: How Food for Life Nepal is Fe...
+                  </h3>
+                  <div class="btn btn-link">
+                    Read more
+                    <svg
+                      width="20"
+                      height="20"
+                      viewBox="0 0 20 20"
+                      fill="none"
+                      xmlns="http://www.w3.org/2000/svg"
+                    >
+                      <path
+                        d="M11.0673 10.4422L4.81729 16.6922C4.70002 16.8094 4.54096 16.8753 4.3751 16.8753C4.20925 16.8753 4.05019 16.8094 3.93292 16.6922C3.81564 16.5749 3.74976 16.4158 3.74976 16.25C3.74976 16.0841 3.81564 15.9251 3.93292 15.8078L9.74151 9.99998L3.93292 4.19217C3.81564 4.07489 3.74976 3.91583 3.74976 3.74998C3.74976 3.58413 3.81564 3.42507 3.93292 3.30779C4.05019 3.19052 4.20925 3.12463 4.3751 3.12463C4.54096 3.12463 4.70002 3.19052 4.81729 3.30779L11.0673 9.55779C11.1254 9.61584 11.1715 9.68477 11.203 9.76064C11.2344 9.83652 11.2506 9.91785 11.2506 9.99998C11.2506 10.0821 11.2344 10.1634 11.203 10.2393C11.1715 10.3152 11.1254 10.3841 11.0673 10.4422ZM17.3173 9.55779L11.0673 3.30779C10.95 3.19052 10.791 3.12463 10.6251 3.12463C10.4593 3.12463 10.3002 3.19052 10.1829 3.30779C10.0656 3.42507 9.99976 3.58413 9.99976 3.74998C9.99976 3.91583 10.0656 4.07489 10.1829 4.19217L15.9915 9.99998L10.1829 15.8078C10.0656 15.9251 9.99976 16.0841 9.99976 16.25C9.99976 16.4158 10.0656 16.5749 10.1829 16.6922C10.3002 16.8094 10.4593 16.8753 10.6251 16.8753C10.791 16.8753 10.95 16.8094 11.0673 16.6922L17.3173 10.4422C17.3754 10.3841 17.4215 10.3152 17.453 10.2393C17.4844 10.1634 17.5006 10.0821 17.5006 9.99998C17.5006 9.91785 17.4844 9.83652 17.453 9.76064C17.4215 9.68477 17.3754 9.61584 17.3173 9.55779Z"
+                        fill="currentColor"
+                      />
+                    </svg>
+                  </div>
+                </div>
+                <img
+                  src="./assets/img/a-plate-of-hope.jpg"
+                  class="card-bgimage"
+                  alt=""
+                />
+              </a>
+              <a href="#" class="card card--image card--four">
+                <div class="card-header"></div>
+                <div class="card-footer">
+                  <h3 class="card-title stretched-link">
+                    A Plate of Hope: How Food for Life Nepal is Fe...
+                  </h3>
+                  <div class="btn btn-link">
+                    Read more
+                    <svg
+                      width="20"
+                      height="20"
+                      viewBox="0 0 20 20"
+                      fill="none"
+                      xmlns="http://www.w3.org/2000/svg"
+                    >
+                      <path
+                        d="M11.0673 10.4422L4.81729 16.6922C4.70002 16.8094 4.54096 16.8753 4.3751 16.8753C4.20925 16.8753 4.05019 16.8094 3.93292 16.6922C3.81564 16.5749 3.74976 16.4158 3.74976 16.25C3.74976 16.0841 3.81564 15.9251 3.93292 15.8078L9.74151 9.99998L3.93292 4.19217C3.81564 4.07489 3.74976 3.91583 3.74976 3.74998C3.74976 3.58413 3.81564 3.42507 3.93292 3.30779C4.05019 3.19052 4.20925 3.12463 4.3751 3.12463C4.54096 3.12463 4.70002 3.19052 4.81729 3.30779L11.0673 9.55779C11.1254 9.61584 11.1715 9.68477 11.203 9.76064C11.2344 9.83652 11.2506 9.91785 11.2506 9.99998C11.2506 10.0821 11.2344 10.1634 11.203 10.2393C11.1715 10.3152 11.1254 10.3841 11.0673 10.4422ZM17.3173 9.55779L11.0673 3.30779C10.95 3.19052 10.791 3.12463 10.6251 3.12463C10.4593 3.12463 10.3002 3.19052 10.1829 3.30779C10.0656 3.42507 9.99976 3.58413 9.99976 3.74998C9.99976 3.91583 10.0656 4.07489 10.1829 4.19217L15.9915 9.99998L10.1829 15.8078C10.0656 15.9251 9.99976 16.0841 9.99976 16.25C9.99976 16.4158 10.0656 16.5749 10.1829 16.6922C10.3002 16.8094 10.4593 16.8753 10.6251 16.8753C10.791 16.8753 10.95 16.8094 11.0673 16.6922L17.3173 10.4422C17.3754 10.3841 17.4215 10.3152 17.453 10.2393C17.4844 10.1634 17.5006 10.0821 17.5006 9.99998C17.5006 9.91785 17.4844 9.83652 17.453 9.76064C17.4215 9.68477 17.3754 9.61584 17.3173 9.55779Z"
+                        fill="currentColor"
+                      />
+                    </svg>
+                  </div>
+                </div>
+                <img
+                  src="./assets/img/a-plate-of-hope-2.jpg"
+                  class="card-bgimage"
+                  alt=""
+                />
+              </a>
+            </div>
+          </div>
+        </section>
+
+        <section class="section imageTextSection">
           <div class="container">
             <div class="row">
-              <div class="col-md-6">
-                <h3
-                  class="section-title mb-3"
-                  data-aos="fade-up"
-                  data-aos-duration="1000"
-                >
-                  <b>THE FOUNDATION OF CONSORTIUM NEPAL IS</b> PRIMARILY BASED
-                  ON CHILDREN EDUCATION AND DEVELOPMENT
+              <div class="col-md-4">
+                <figure class="imageTextSection__figure">
+                  <img
+                    src="./assets/img/top-vector.svg"
+                    class="imgDecorator imgDecorator--TopRight"
+                    alt=""
+                  />
+                  <img
+                    src="./assets/img/lower-vector.svg"
+                    class="imgDecorator imgDecorator--BottomLeft"
+                    alt=""
+                  />
+                  <img src="./assets/img/no-child-img.jpg" alt="" />
+                </figure>
+              </div>
+              <div class="col-md-8 mt-4 mt-md-0">
+                <div class="imageTextSection__subtitle">
+                  FOOD FOR LIFE NEPAL
+                </div>
+                <h3 class="imageTextSection__title">
+                  “ No child in Nepal shall be deprived of education because of
+                  hunger ”
                 </h3>
-                <div
-                  class="pt-3"
-                  data-aos="fade-up"
-                  data-aos-duration="1000"
-                  data-aos-delay="100"
-                >
-                  <p>
-                    Consortium Nepal is a non-profit that works to improve the
-                    quality of education in Nepal through research, advocacy,
-                    and capacity building. The organization was founded in 1995,
-                    and works to ensure that all children in Nepal have access
-                    to quality education. They strive to create an equitable
-                    education system that is accessible to all, regardless of
-                    gender, ethnicity, or socioeconomic background. Consortium
-                    Nepal works in partnership with government and
-                    non-governmental organizations to facilitate the
-                    implementation of educational reform and development
-                    initiatives. They have successfully implemented a number of
-                    projects, such as the development of a national curriculum,
-                    quality teacher training, and the establishment of a quality
-                    assurance system. Consortium Nepal is committed to making
-                    sure that all children in Nepal have access to quality
-                    education.
-                  </p>
+                <p>
+                  Food for Life Nepal’s program is based on the belief that one
+                  nutritious meal, prepared with compassion and love in the way
+                  a mother would prepare a meal for her child, brings thousands
+                  of children to school daily. Food for Life Nepal’s program is
+                  based on the belief that one nutritious meal, prepared with
+                  compassion and love in the way a mother would prepare a meal
+                  for her child, brings thousands of children to school daily.
+                </p>
+                <div class="imageTextSection__cta">
+                  <a href="#" role="button" class="btn btn-primary me-4"
+                    >Learn More
+                    <svg
+                      width="20"
+                      height="20"
+                      viewBox="0 0 20 20"
+                      fill="none"
+                      xmlns="http://www.w3.org/2000/svg"
+                    >
+                      <path
+                        d="M11.0673 10.4422L4.81729 16.6922C4.70002 16.8095 4.54096 16.8753 4.3751 16.8753C4.20925 16.8753 4.05019 16.8095 3.93292 16.6922C3.81564 16.5749 3.74976 16.4158 3.74976 16.25C3.74976 16.0841 3.81564 15.9251 3.93292 15.8078L9.74151 10L3.93292 4.19218C3.81564 4.07491 3.74976 3.91585 3.74976 3.75C3.74976 3.58414 3.81564 3.42508 3.93292 3.30781C4.05019 3.19053 4.20925 3.12465 4.3751 3.12465C4.54096 3.12465 4.70002 3.19053 4.81729 3.30781L11.0673 9.55781C11.1254 9.61585 11.1715 9.68478 11.203 9.76066C11.2344 9.83653 11.2506 9.91786 11.2506 10C11.2506 10.0821 11.2344 10.1635 11.203 10.2393C11.1715 10.3152 11.1254 10.3841 11.0673 10.4422ZM17.3173 9.55781L11.0673 3.30781C10.95 3.19053 10.791 3.12465 10.6251 3.12465C10.4593 3.12465 10.3002 3.19053 10.1829 3.30781C10.0656 3.42508 9.99976 3.58414 9.99976 3.75C9.99976 3.91585 10.0656 4.07491 10.1829 4.19218L15.9915 10L10.1829 15.8078C10.0656 15.9251 9.99976 16.0841 9.99976 16.25C9.99976 16.4158 10.0656 16.5749 10.1829 16.6922C10.3002 16.8095 10.4593 16.8753 10.6251 16.8753C10.791 16.8753 10.95 16.8095 11.0673 16.6922L17.3173 10.4422C17.3754 10.3841 17.4215 10.3152 17.453 10.2393C17.4844 10.1635 17.5006 10.0821 17.5006 10C17.5006 9.91786 17.4844 9.83653 17.453 9.76066C17.4215 9.68478 17.3754 9.61585 17.3173 9.55781Z"
+                        fill="white"
+                      />
+                    </svg>
+                  </a>
+                  <a href="#" class="btn btn-link">
+                    <svg
+                      width="20"
+                      height="21"
+                      viewBox="0 0 20 21"
+                      fill="none"
+                      xmlns="http://www.w3.org/2000/svg"
+                    >
+                      <rect
+                        x="5.35034"
+                        y="6.05591"
+                        width="9.84615"
+                        height="9.29914"
+                        fill="white"
+                      />
+                      <path
+                        d="M10 0.705566C8.02219 0.705566 6.08879 1.29206 4.4443 2.39087C2.79981 3.48968 1.51809 5.05147 0.761209 6.87873C0.00433284 8.70599 -0.1937 10.7167 0.192152 12.6565C0.578004 14.5963 1.53041 16.3781 2.92894 17.7766C4.32746 19.1752 6.10929 20.1276 8.0491 20.5134C9.98891 20.8993 11.9996 20.7012 13.8268 19.9444C15.6541 19.1875 17.2159 17.9058 18.3147 16.2613C19.4135 14.6168 20 12.6834 20 10.7056C19.9967 8.05442 18.9421 5.5128 17.0674 3.63815C15.1928 1.7635 12.6512 0.708874 10 0.705566ZM13.5038 11.3459L8.88846 14.4229C8.76188 14.5068 8.61341 14.5516 8.46154 14.5517C8.25753 14.5517 8.06187 14.4707 7.91761 14.3264C7.77335 14.1822 7.69231 13.9865 7.69231 13.7825V7.62864C7.69222 7.48935 7.72996 7.35264 7.80149 7.23311C7.87302 7.11359 7.97567 7.01573 8.09848 6.94998C8.22128 6.88424 8.35963 6.85307 8.49876 6.85981C8.6379 6.86655 8.77259 6.91095 8.88846 6.98826L13.5038 10.0652C13.6094 10.1354 13.6959 10.2306 13.7557 10.3423C13.8156 10.454 13.8469 10.5788 13.8469 10.7056C13.8469 10.8323 13.8156 10.9571 13.7557 11.0688C13.6959 11.1805 13.6094 11.2757 13.5038 11.3459Z"
+                        fill="currentColor"
+                      />
+                    </svg>
+                    Watch how we do it
+                  </a>
                 </div>
               </div>
-              <div class="col-md-6">
-                <figure class="image-group">
+            </div>
+          </div>
+        </section>
+
+        <section
+          class="section--bgColor section--primaryLight donateNepalSection"
+        >
+          <img
+            src="./assets/img/illustration-firework.svg"
+            class="imgDecorator imgDecorator--sectionRight"
+            alt=""
+          />
+          <div class="container">
+            <div class="row">
+              <div class="col-md-6 align-self-center">
+                <header class="section-header">
                   <img
-                    src="./assets/img/img1.png"
+                    src="./assets/img/ilustration-grass.svg"
+                    class="imgDecorator imgDecorator--TopRight"
                     alt=""
-                    class="img1"
-                    data-aos="fade-up"
-                    data-aos-duration="1000"
-                    data-aos-delay="50"
                   />
-                  <div class="image-wrap">
-                    <img
-                      src="./assets/img/img2.png"
-                      alt=""
-                      class="img2"
-                      data-aos="fade-up"
-                      data-aos-duration="1000"
-                      data-aos-delay="100"
-                    />
-                    <img
-                      src="./assets/img/img3.png"
-                      alt=""
-                      class="img3"
-                      data-aos="fade-up"
-                      data-aos-duration="1000"
-                      data-aos-delay="200"
-                    />
+                  <h2 class="donateNepalSection__title">
+                    Be the reason kids spend a hunger-free day
+                  </h2>
+                </header>
+                <div class="stat">
+                  <small class="stat__label"
+                    >Feeding <span class="text-primary">10,424 / 25000</span> by
+                    2032 A.D.</small
+                  >
+                  <div
+                    class="progress"
+                    role="progressbar"
+                    aria-label="Basic example"
+                    aria-valuenow="25"
+                    aria-valuemin="0"
+                    aria-valuemax="100"
+                  >
+                    <div
+                      class="progress-bar bg-success"
+                      style="width: 25%"
+                    ></div>
                   </div>
+                </div>
+                <a href="#" role="button" class="btn btn-primary me-4"
+                  >Donate Now
+                  <svg
+                    width="20"
+                    height="20"
+                    viewBox="0 0 20 20"
+                    fill="none"
+                    xmlns="http://www.w3.org/2000/svg"
+                  >
+                    <path
+                      d="M18.9945 11.5204C18.7902 11.3629 18.5559 11.2486 18.3059 11.1845C18.0559 11.1205 17.7956 11.108 17.5406 11.1477C19.0078 9.66648 19.75 8.19382 19.75 6.75007C19.75 4.6821 18.0867 3.00007 16.0422 3.00007C15.4997 2.99667 14.963 3.11205 14.4699 3.33811C13.9767 3.56418 13.539 3.89545 13.1875 4.30867C12.836 3.89545 12.3983 3.56418 11.9051 3.33811C11.412 3.11205 10.8753 2.99667 10.3328 3.00007C8.28828 3.00007 6.625 4.6821 6.625 6.75007C6.625 7.60945 6.87812 8.4446 7.41094 9.3282C6.97456 9.43875 6.57632 9.66555 6.25859 9.98445L4.49141 11.7501H2.25C1.91848 11.7501 1.60054 11.8818 1.36612 12.1162C1.1317 12.3506 1 12.6686 1 13.0001L1 16.1251C1 16.4566 1.1317 16.7745 1.36612 17.009C1.60054 17.2434 1.91848 17.3751 2.25 17.3751H10.375C10.4261 17.3751 10.477 17.3688 10.5266 17.3563L15.5266 16.1063C15.5584 16.0987 15.5895 16.0883 15.6195 16.0751L18.6562 14.7829L18.6906 14.7673C18.9825 14.6214 19.2324 14.4037 19.4168 14.1346C19.6013 13.8655 19.7142 13.5538 19.7449 13.229C19.7756 12.9042 19.7231 12.5769 19.5924 12.278C19.4617 11.9791 19.257 11.7183 18.9977 11.5204H18.9945ZM10.3328 4.25007C10.8169 4.24299 11.2921 4.38044 11.6976 4.64486C12.1031 4.90928 12.4206 5.28865 12.6094 5.73445C12.6565 5.84908 12.7366 5.94713 12.8395 6.01613C12.9424 6.08513 13.0636 6.12197 13.1875 6.12197C13.3114 6.12197 13.4326 6.08513 13.5355 6.01613C13.6384 5.94713 13.7185 5.84908 13.7656 5.73445C13.9544 5.28865 14.2719 4.90928 14.6774 4.64486C15.0829 4.38044 15.5581 4.24299 16.0422 4.25007C17.3742 4.25007 18.5 5.3946 18.5 6.75007C18.5 8.27429 17.2664 9.99851 14.9328 11.7423L14.0664 11.9415C14.1425 11.6202 14.1448 11.2859 14.0733 10.9636C14.0017 10.6413 13.8582 10.3394 13.6534 10.0805C13.4486 9.82156 13.1878 9.61235 12.8907 9.46854C12.5935 9.32473 12.2676 9.25004 11.9375 9.25007H8.86563C8.19141 8.3407 7.875 7.5407 7.875 6.75007C7.875 5.3946 9.00078 4.25007 10.3328 4.25007ZM2.25 13.0001H4.125V16.1251H2.25V13.0001ZM18.143 13.6415L15.1742 14.9055L10.2969 16.1251H5.375V12.6337L7.14297 10.8665C7.25862 10.7499 7.39629 10.6575 7.54798 10.5946C7.69967 10.5317 7.86235 10.4995 8.02656 10.5001H11.9375C12.1861 10.5001 12.4246 10.5988 12.6004 10.7747C12.7762 10.9505 12.875 11.1889 12.875 11.4376C12.875 11.6862 12.7762 11.9247 12.6004 12.1005C12.4246 12.2763 12.1861 12.3751 11.9375 12.3751H9.75C9.58424 12.3751 9.42527 12.4409 9.30806 12.5581C9.19085 12.6753 9.125 12.8343 9.125 13.0001C9.125 13.1658 9.19085 13.3248 9.30806 13.442C9.42527 13.5592 9.58424 13.6251 9.75 13.6251H12.25C12.297 13.6249 12.3439 13.6197 12.3898 13.6094L17.6242 12.4055L17.6484 12.3993C17.8082 12.3549 17.9788 12.3712 18.1273 12.4451C18.2758 12.5189 18.3917 12.645 18.4528 12.7992C18.5139 12.9534 18.5158 13.1247 18.4582 13.2802C18.4005 13.4357 18.2874 13.5644 18.1406 13.6415H18.143Z"
+                      fill="white"
+                    />
+                  </svg>
+                </a>
+              </div>
+              <div class="col-md-6">
+                <figure class="donateNepalSection__figure">
+                  <img
+                    src="./assets/img/nepal-map.png"
+                    class="donateNepalSection__map"
+                    alt=""
+                  />
+                  <img
+                    src="./assets/img/arc-circle-shape.svg"
+                    class="donateNepalSection__circleShape"
+                    alt=""
+                  />
                 </figure>
               </div>
             </div>
           </div>
         </section>
 
-        <!--hero ends -->
-        <!--section social platform starts-->
-        <section class="section section--starts pt-0">
-          <div
-            class="container"
-            data-aos="fade-up"
-            data-aos-easing="ease-in-sine"
-            data-aos-delay="200"
-            data-aos-offset="0"
-            data-aos-duration="500"
-          >
-            <div class="grid-block">
-              <div class="grid-block-item">
-                <img src="./assets/img/children.svg" alt="" />
-                <div class="social-platform">
-                  <div class="social-platform-counter">
-                    <span class="js-counter">10</span>K+
-                  </div>
-                  <div class="social-platform-label">CHILDREN REACHED</div>
-                </div>
-              </div>
-              <div class="grid-block-item">
-                <img src="./assets/img/map.svg" alt="" />
-                <div class="social-platform">
-                  <div class="social-platform-counter">
-                    <span class="js-counter">7</span>
-                  </div>
-                  <div class="social-platform-label">PROVINCE REACHED</div>
-                </div>
-              </div>
-              <div class="grid-block-item">
-                <img src="./assets/img/youth.svg" alt="" />
-                <div class="social-platform">
-                  <div class="social-platform-counter">
-                    <span class="js-counter">50</span>K+
-                  </div>
-                  <div class="social-platform-label">YOUTH REACHED</div>
-                </div>
-              </div>
-              <div class="grid-block-item">
-                <img src="./assets/img/years.svg" alt="" />
-                <div class="social-platform">
-                  <div class="social-platform-counter">
-                    <span class="js-counter">20</span>K+
-                  </div>
-                  <div class="social-platform-label">YEARS OF ESTD</div>
-                </div>
-              </div>
-            </div>
-          </div>
-        </section>
-        <!--section social members ends-->
-
-        <!-- section faq starts  -->
-        <section
-          class="section section--faq"
-          data-aos="fade-up"
-          data-aos-duration="1000"
-        >
-          <h3 class="section-title sr-only visually-hidden">faq</h3>
+        <section class="section">
           <div class="container">
-            <div class="accordion accordion-flush" id="accordionFlushExample">
-              <div class="accordion-item">
-                <h2 class="accordion-header" id="flush-headingOne">
-                  <button
-                    class="accordion-button collapsed"
-                    type="button"
-                    data-bs-toggle="collapse"
-                    data-bs-target="#flush-collapseOne"
-                    aria-expanded="false"
-                    aria-controls="flush-collapseOne"
-                  >
-                    WHAT PROMPTED THE START OF CONSORTIUM NEPAL?
-                  </button>
-                </h2>
-                <div
-                  id="flush-collapseOne"
-                  class="accordion-collapse collapse"
-                  aria-labelledby="flush-headingOne"
-                  data-bs-parent="#accordionFlushExample"
-                >
-                  <div class="accordion-body">
-                    Placeholder content for this accordion, which is intended to
-                    demonstrate the <code>.accordion-flush</code> class. This is
-                    the first item's accordion body.
-                  </div>
-                </div>
-              </div>
-              <div class="accordion-item">
-                <h2 class="accordion-header" id="flush-headingTwo">
-                  <button
-                    class="accordion-button collapsed"
-                    type="button"
-                    data-bs-toggle="collapse"
-                    data-bs-target="#flush-collapseTwo"
-                    aria-expanded="false"
-                    aria-controls="flush-collapseTwo"
-                  >
-                    HOW DOES CONSORTIUM NEPAL FUNCTION?
-                  </button>
-                </h2>
-                <div
-                  id="flush-collapseTwo"
-                  class="accordion-collapse collapse"
-                  aria-labelledby="flush-headingTwo"
-                  data-bs-parent="#accordionFlushExample"
-                >
-                  <div class="accordion-body">
-                    Placeholder content for this accordion, which is intended to
-                    demonstrate the <code>.accordion-flush</code> class. This is
-                    the second item's accordion body. Let's imagine this being
-                    filled with some actual content.
-                  </div>
-                </div>
-              </div>
-              <div class="accordion-item">
-                <h2 class="accordion-header" id="flush-headingThree">
-                  <button
-                    class="accordion-button collapsed"
-                    type="button"
-                    data-bs-toggle="collapse"
-                    data-bs-target="#flush-collapseThree"
-                    aria-expanded="false"
-                    aria-controls="flush-collapseThree"
-                  >
-                    ARE THERE ANY SPECIFIC AREAS THAT CONSORTIUM NEPAL WORKS
-                    FOR?
-                  </button>
-                </h2>
-                <div
-                  id="flush-collapseThree"
-                  class="accordion-collapse collapse"
-                  aria-labelledby="flush-headingThree"
-                  data-bs-parent="#accordionFlushExample"
-                >
-                  <div class="accordion-body">
-                    Placeholder content for this accordion, which is intended to
-                    demonstrate the <code>.accordion-flush</code> class. This is
-                    the third item's accordion body. Nothing more exciting
-                    happening here in terms of content, but just filling up the
-                    space to make it look, at least at first glance, a bit more
-                    representative of how this would look in a real-world
-                    application.
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-        </section>
-        <!-- section faq ends -->
-
-        <!-- section carousel starts  -->
-
-        <section class="section section--carousel">
-          <h3 class="section-title sr-only visually-hidden">Carousel Title</h3>
-
-          <div class="container position-relative">
-            <div class="px-md-5">
-              <div class="position-relative">
-                <div id="slidecontrols" class="slider-controls"></div>
-                <div class="hero-carousel" id="hero-carousel">
-                  <div class="hero-carousel-item">
-                    <article class="article">
-                      <div class="row g-0 align-items-center">
-                        <div class="col-lg-9">
-                          <img
-                            src="./assets/img/slider-img.jpg"
-                            alt=""
-                            class="w-100"
-                          />
-                        </div>
-                        <div class="col-lg-3">
-                          <div class="article-content">
-                            <h4 class="article-title section-title">
-                              <b>WASTE SMART SCHOOL </b> <br />
-                              WASTE SMART SCHOOL
-                            </h4>
-                            <p>
-                              Consortium Nepal works in partnership with
-                              government and non-governmental organizations to
-                              facilitate the implementation of educational
-                              reform and development initiatives. They have
-                              successfully implemented a number of projects,
-                              such as the development of a national curriculum,
-                              quality teacher training, and the establishment of
-                              a quality assurance system.
-                            </p>
-                          </div>
-                        </div>
-                      </div>
-                    </article>
-                  </div>
-                  <div class="hero-carousel-item">
-                    <article class="article">
-                      <div class="row g-0 align-items-center">
-                        <div class="col-lg-9">
-                          <img
-                            src="./assets/img/slider-img.jpg"
-                            alt=""
-                            class="w-100"
-                          />
-                        </div>
-                        <div class="col-lg-3">
-                          <div class="article-content">
-                            <h4 class="article-title section-title">
-                              <b>WASTE SMART SCHOOL </b> <br />
-                              WASTE SMART SCHOOL
-                            </h4>
-                            <p>
-                              Consortium Nepal works in partnership with
-                              government and non-governmental organizations to
-                              facilitate the implementation of educational
-                              reform and development initiatives. They have
-                              successfully implemented a number of projects,
-                              such as the development of a national curriculum,
-                              quality teacher training, and the establishment of
-                              a quality assurance system.
-                            </p>
-                          </div>
-                        </div>
-                      </div>
-                    </article>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-        </section>
-        <!-- section carousel ends -->
-
-        <!-- section featured news starts  -->
-        <section class="section section--featured-news">
-          <div class="container">
-            <div class="row">
-              <div class="col-lg-3" data-aos="fade-up" data-aos-duration="1000">
-                <div class="pt-lg-4">
-                  <h3 class="section-title"><b>FEATURED</b> NEWS</h3>
-                  <p>
-                    For an in-depth look at Consortium Nepal. visit our media
-                    page.
-                  </p>
-                </div>
-              </div>
-              <div class="col-lg-9">
-                <div class="row">
-                  <div
-                    class="col-lg-4 mb-3 mb-lg-0"
-                    data-aos="fade-up"
-                    data-aos-duration="1000"
-                    data-aos-delay="100"
-                  >
-                    <div class="card card--blog">
-                      <figure class="ratio ratio-16x9">
-                        <img src="./assets/img/slider-img.jpg" alt="" />
-                      </figure>
-                      <div class="card-body">
-                        <h3 class="card-title">
-                          Award Distribution and Acknowledgement Program to the
-                          Hotels of Sauraha,
-                        </h3>
-                        <div class="meta">
-                          <img src="./assets/img/calender-icon.svg" alt="" />
-                          Jan 2, 2023
-                        </div>
-                        <a href="#" class="stretched-link">LEARN MORE</a>
-                      </div>
-                    </div>
-                  </div>
-                  <div
-                    class="col-lg-4 mb-3 mb-lg-0"
-                    data-aos="fade-up"
-                    data-aos-duration="1000"
-                    data-aos-delay="200"
-                  >
-                    <div class="card card--blog">
-                      <figure class="ratio ratio-16x9">
-                        <img src="./assets/img/slider-img.jpg" alt="" />
-                      </figure>
-                      <div class="card-body">
-                        <h3 class="card-title">
-                          Award Distribution and Acknowledgement Program to the
-                          Hotels of Sauraha,
-                        </h3>
-                        <div class="meta">
-                          <img src="./assets/img/calender-icon.svg" alt="" />
-                          Jan 2, 2023
-                        </div>
-                        <a href="#" class="stretched-link">LEARN MORE</a>
-                      </div>
-                    </div>
-                  </div>
-                  <div
-                    class="col-lg-4 mb-3 mb-lg-0"
-                    data-aos="fade-up"
-                    data-aos-duration="1000"
-                    data-aos-delay="300"
-                  >
-                    <div class="card card--blog">
-                      <figure class="ratio ratio-16x9">
-                        <img src="./assets/img/slider-img.jpg" alt="" />
-                      </figure>
-                      <div class="card-body">
-                        <h3 class="card-title">
-                          Award Distribution and Acknowledgement Program to the
-                          Hotels of Sauraha,
-                        </h3>
-                        <div class="meta">
-                          <img src="./assets/img/calender-icon.svg" alt="" />
-                          Jan 2, 2023
-                        </div>
-                        <a href="#" class="stretched-link">LEARN MORE</a>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-        </section>
-        <!-- section featured news ebds  -->
-
-        <!-- newsletter section starts  -->
-        <section class="section section--newsletter">
-          <div class="container">
-            <div class="row justify-content-between align-items-center">
-              <div
-                class="col-lg-5 mb-3 mb-lg-0"
+            <header class="section-header">
+              <h2
+                class="section-title mb-0"
                 data-aos="fade-up"
                 data-aos-duration="1000"
               >
-                <h3 class="section-title"><b>Join Our Newsletter</b></h3>
-                <p>It’s so wonderful you’ll be joining our community!</p>
-                <form action="">
-                  <div class="input-group mb-3">
-                    <input
-                      type="text"
-                      class="form-control form-control-lg"
-                      placeholder="Recipient's username"
-                      aria-label="Recipient's username"
-                      aria-describedby="button-addon2"
-                    />
-                    <button
-                      class="btn btn-primary btn-lg"
-                      type="button"
-                      id="button-addon2"
-                    >
-                      SUBSCRIBE
-                    </button>
-                  </div>
-                </form>
-              </div>
-              <div
-                class="col-lg-5 d-flex justify-content-lg-end"
-                data-aos="fade-up"
-                data-aos-duration="1000"
-                data-aos-delay="100"
-              >
-                <ul
-                  class="list-unstyled footer-social-links justify-content-between d-flex w-100"
+                OUR PARTNERS
+              </h2>
+              <a href="#" class="btn btn-link"
+                >VIEW ALL
+                <svg
+                  width="20"
+                  height="20"
+                  viewBox="0 0 20 20"
+                  fill="none"
+                  xmlns="http://www.w3.org/2000/svg"
                 >
-                  <li>
-                    <a href="#" title="Youtube" target="_blank">
-                      <img src="./assets/img/youtube.svg" alt="youtube" />
-                      <span>Subscriber</span>
-                    </a>
-                  </li>
-                  <li>
-                    <a href="#" title="Facbook" target="_blank">
-                      <img src="./assets/img/facebook.svg" alt="facebook" />
-                      <span>Subscriber</span>
-                    </a>
-                  </li>
-                  <li>
-                    <a href="#" title="Instagram" target="_blank">
-                      <img src="./assets/img/instagram.svg" alt="instagram" />
-                      <span>Subscriber</span>
-                    </a>
-                  </li>
-                  <li>
-                    <a href="#" title="Twitter" target="_b lank">
-                      <img src="./assets/img/twitter.svg" alt="twitter" />
-                      <span>Subscriber</span>
-                    </a>
-                  </li>
-                  <li>
-                    <a href="#" title="LinkedIn" target="_blank">
-                      <img src="./assets/img/linkedin.svg" alt="linkedin" />
-                      <span>Subscriber</span>
-                    </a>
-                  </li>
-                </ul>
+                  <path
+                    d="M16.6923 7.94217L10.4423 14.1922C10.3842 14.2503 10.3153 14.2964 10.2394 14.3278C10.1636 14.3593 10.0822 14.3755 10.0001 14.3755C9.91797 14.3755 9.83664 14.3593 9.76077 14.3278C9.68489 14.2964 9.61596 14.2503 9.55792 14.1922L3.30792 7.94217C3.19064 7.82489 3.12476 7.66583 3.12476 7.49998C3.12476 7.33413 3.19064 7.17507 3.30792 7.05779C3.42519 6.94052 3.58425 6.87463 3.7501 6.87463C3.91596 6.87463 4.07502 6.94052 4.19229 7.05779L10.0001 12.8664L15.8079 7.05779C15.866 6.99972 15.9349 6.95366 16.0108 6.92224C16.0867 6.89081 16.168 6.87463 16.2501 6.87463C16.3322 6.87463 16.4135 6.89081 16.4894 6.92224C16.5653 6.95366 16.6342 6.99972 16.6923 7.05779C16.7504 7.11586 16.7964 7.1848 16.8278 7.26067C16.8593 7.33654 16.8755 7.41786 16.8755 7.49998C16.8755 7.5821 16.8593 7.66342 16.8278 7.73929C16.7964 7.81516 16.7504 7.8841 16.6923 7.94217Z"
+                    fill="currentColor"
+                  />
+                </svg>
+              </a>
+            </header>
+            <div class="partners">
+              <div class="partners__item">
+                <img src="./assets/img//partner-logo/nabil.png" alt="" />
+              </div>
+              <div class="partners__item">
+                <img src="./assets/img//partner-logo/rotary.png" alt="" />
+              </div>
+              <div class="partners__item">
+                <img src="./assets/img//partner-logo/gem.png" alt="" />
+              </div>
+              <div class="partners__item">
+                <img src="./assets/img//partner-logo/panchakanya.png" alt="" />
+              </div>
+              <div class="partners__item">
+                <img
+                  src="./assets/img//partner-logo/jayafurnishers.png"
+                  alt=""
+                />
+              </div>
+              <div class="partners__item">
+                <img src="./assets/img//partner-logo/parkvillage.png" alt="" />
+              </div>
+              <div class="partners__item">
+                <img src="./assets/img//partner-logo/kumari.png" alt="" />
+              </div>
+              <div class="partners__item">
+                <img src="./assets/img//partner-logo/kamana.png" alt="" />
+              </div>
+              <div class="partners__item">
+                <img src="./assets/img//partner-logo/jamarko.png" alt="" />
+              </div>
+              <div class="partners__item">
+                <img src="./assets/img//partner-logo/sastodeal.png" alt="" />
+              </div>
+              <div class="partners__item">
+                <img src="./assets/img//partner-logo/roomtoread.png" alt="" />
+              </div>
+              <div class="partners__item">
+                <img src="./assets/img//partner-logo/ashtanokai.png" alt="" />
               </div>
             </div>
           </div>
         </section>
-        <!-- newsletter section ends -->
       </div>
       <footer id="footer" class="footer app-footer">
         <div class="footer-wrapper">
           <div class="footer-main">
             <div class="container">
-              <div class="row justify-content-lg-between align-items-lg-center">
-                <div class="col-12 col-xs-6 col-lg-4 mt-4 mt-lg-0">
+              <div class="row">
+                <div class="col-12 col-xs-6 col-lg-6">
                   <aside
-                    class="widget aos-init aos-animate"
+                    class="widget aos-init aos-animate me-lg-5"
                     data-aos="fade-up"
                     data-aos-duration="1000"
                     data-aos-delay="300"
                   >
-                    <img
-                      width="270"
-                      src="./assets/img/logo.png"
-                      class="img-fluid footer-logo"
-                      alt=" "
-                    />
+                    <a href="#" class="footer-logo">
+                      <img
+                        width="270"
+                        src="./assets/img/footer-logo.png"
+                        class="img-fluid footer-logo-img"
+                        alt=" "
+                      />
+                    </a>
                     <p>
-                      Consortium Nepal is a non-profit that works to improve the
-                      quality of education in Nepal through research, advocacy,
-                      and capacity building. The organization was founded in
-                      2011, and works to ensure that all children in Nepal have
-                      access to quality education.
+                      Food for Life Nepal nourishes kids with daily meals, each
+                      made with the care of a mother.
                     </p>
+                    <ul class="list-unstyled contact-links">
+                      <li>
+                        <img src="./assets/img/phone-icon.svg" alt="" />
+
+                        <div>+977 9815645856</div>
+                      </li>
+
+                      <li>
+                        <img src="./assets/img/location-icon.svg" alt="" />
+                        <div>Budhanilkantha, Kathmandu</div>
+                      </li>
+                      <li>
+                        <img src="./assets/img/map-icon.svg" alt="" />
+                        <div>
+                          Visit us <a href="#" target="_blank">(Map Link)</a>
+                        </div>
+                      </li>
+                    </ul>
+                    <ul class="list-unstyled footer-social-links">
+                      <li>
+                        <a href="#" title="Facbook" target="_blank">
+                          <img src="./assets/img/facebook.svg" alt="facebook" />
+                        </a>
+                      </li>
+                      <li>
+                        <a href="#" title="Instagram" target="_blank">
+                          <img
+                            src="./assets/img/instagram.svg"
+                            alt="instagram"
+                          />
+                        </a>
+                      </li>
+                      <li>
+                        <a href="#" title="Twitter" target="_blank">
+                          <img src="./assets/img/twitter.svg" alt="twitter" />
+                        </a>
+                      </li>
+                      <li>
+                        <a href="#" title="LinkedIn" target="_blank">
+                          <img src="./assets/img/linkedin.svg" alt="linkedin" />
+                        </a>
+                      </li>
+                    </ul>
                   </aside>
                 </div>
-                <div class="col-12 col-xs-6 col-lg-5 mt-4 mt-lg-0">
+                <div class="col-12 col-xs-6 col-lg-2 mt-4 mt-lg-0">
                   <aside
                     class="widget aos-init aos-animate"
                     data-aos="fade-up"
                     data-aos-duration="1000"
                     data-aos-delay="600"
                   >
-                    <h4 class="widget-title">Quick Links</h4>
-                    <ul class="menu menu-column">
+                    <h4 class="widget-title">WHO WE ARE</h4>
+                    <ul class="menu">
                       <li>
-                        <a href="#">About Us</a>
+                        <a href="#">History</a>
                       </li>
                       <li>
-                        <a href="#">Programs</a>
+                        <a href="#">About us</a>
                       </li>
                       <li>
-                        <a href="#">Home</a>
+                        <a href="#">Our Impact</a>
                       </li>
                       <li>
-                        <a href="#">Thematic Areas</a>
+                        <a href="#">Knowledge Center</a>
+                      </li>
+                    </ul>
+                  </aside>
+                </div>
+                <div class="col-12 col-xs-6 col-lg-2 mt-4 mt-lg-0">
+                  <aside
+                    class="widget aos-init aos-animate"
+                    data-aos="fade-up"
+                    data-aos-duration="1000"
+                    data-aos-delay="600"
+                  >
+                    <h4 class="widget-title">WHAT WE DO</h4>
+                    <ul class="menu">
+                      <li>
+                        <a href="#">Education</a>
                       </li>
                       <li>
-                        <a href="#">Projects</a>
+                        <a href="#">Health and Nutrition</a>
                       </li>
                       <li>
-                        <a href="#">Blog</a>
+                        <a href="#">Advocacy</a>
+                      </li>
+                    </ul>
+                  </aside>
+                </div>
+                <div class="col-12 col-xs-6 col-lg-2 mt-4 mt-lg-0">
+                  <aside
+                    class="widget aos-init aos-animate"
+                    data-aos="fade-up"
+                    data-aos-duration="1000"
+                    data-aos-delay="600"
+                  >
+                    <h4 class="widget-title">GET INVOLVED</h4>
+                    <ul class="menu">
+                      <li>
+                        <a href="#">Careers</a>
                       </li>
                       <li>
-                        <a href="#">Resources</a>
+                        <a href="#">Volunteers</a>
                       </li>
                       <li>
-                        <a href="#">Get Involved</a>
-                      </li>
-                      <li>
-                        <a href="#">FAQ</a>
+                        <a href="#">Contact us</a>
                       </li>
                     </ul>
                   </aside>
@@ -707,8 +807,8 @@
               class="container py-3 border-top border-white d-flex gap-3 justify-content-center align-items-center flex-column flex-lg-row text-center"
             >
               <div class="copyright-text">
-                Copyright © 2023 Consortium of Organizations Working for Child
-                Participation | All rights reserved.
+                Copyright © 2024 Food For Life . All Rights Reserved | Developed
+                by <a href="#">Ikigai Tech</a>
               </div>
             </div>
           </div>

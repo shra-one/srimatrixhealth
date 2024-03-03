@@ -1,5 +1,20 @@
 $(function () {
   AOS.init();
+  var lastScroll = 0;
+  var header = $(".navbar").outerHeight();
+  $(window).scroll(function () {
+    if ($(window).scrollTop() >= header) {
+      $("#header").addClass("sticky");
+      var head = $(".navbar").outerHeight();
+      document.documentElement.style.setProperty("--headerWidth", head + "px");
+    } else {
+      $("#header").removeClass("sticky");
+      document.documentElement.style.setProperty(
+        "--headerWidth",
+        header + "px"
+      );
+    }
+  });
 
   $(".js-counter").countUp({
     time: 2000,
