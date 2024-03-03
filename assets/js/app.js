@@ -21,11 +21,11 @@ $(function () {
     delay: 10,
   });
 
-  $("#hero-carousel").slick({
+  $("#partner-carousel").slick({
     infinite: false,
-    slidesToShow: 1,
+    slidesToShow: 6,
     slidesToScroll: 1,
-    dots: false,
+    dots: true,
     centerMode: false,
     variableWidth: false,
     autoplay: false,
@@ -49,6 +49,26 @@ $(function () {
     </div>
     
     `,
+    responsive: [
+      {
+        breakpoint: 1100,
+        settings: {
+          slidesToShow: 5,
+        },
+      },
+      {
+        breakpoint: 600,
+        settings: {
+          slidesToShow: 2,
+        },
+      },
+      {
+        breakpoint: 480,
+        settings: {
+          slidesToShow: 1,
+        },
+      },
+    ],
   });
 
   AOS.refresh();
