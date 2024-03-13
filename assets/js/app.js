@@ -72,6 +72,12 @@ $(function () {
   });
 
   AOS.refresh();
+
+  lightbox.option({
+    resizeDuration: 200,
+    wrapAround: true,
+    disableScrolling: true,
+  });
 });
 
 var tooltipTriggerList = [].slice.call(
