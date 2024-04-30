@@ -10,7 +10,7 @@
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
-      href="https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,100..900;1,100..900&family=Sora:wght@100..800&display=swap"
+      href="https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400..700;1,400..700&family=Nunito+Sans:ital,opsz,wght@0,6..12,200..1000;1,6..12,200..1000&family=Oregano:ital@0;1&display=swap"
       rel="stylesheet"
     />
     <link
@@ -26,26 +26,17 @@
 
     <link rel="stylesheet" href="./assets/css/app.css" />
 
-    <title>Agrodiversity</title>
+    <title>Srimax Health</title>
   </head>
 
   <body>
     <div id="app" class="app">
       <div class="app-wrapper">
-        <header id="header" class="header fixed-top">
+        <header id="header" class="header">
           <nav class="navbar navbar-light navbar-expand-xl header-main">
             <div class="container">
               <a class="navbar-brand" href="#">
-                <img
-                  src="./assets/img/logo.svg"
-                  class="logo-nonsticky"
-                  alt="Agrodiversity Logo"
-                />
-                <img
-                  src="./assets/img/logo-white.svg"
-                  class="logo-sticky"
-                  alt="Agrodiversity Logo"
-                />
+                <img src="./assets/img/logo.svg" alt="Agrodiversity Logo" />
               </a>
               <button
                 class="navbar-toggler"
@@ -77,13 +68,16 @@
                 </div>
                 <div class="offcanvas-body">
                   <ul
-                    class="navbar-nav navbar-nav--menu justify-content-end gap-2 flex-grow-1 pe-3"
+                    class="navbar-nav navbar-nav--menu justify-content-center align-items-xl-center gap-2 flex-grow-1 pe-3"
                   >
                     <li class="nav-item">
-                      <a class="nav-link" href="#">About</a>
+                      <a class="nav-link" href="#">Home</a>
                     </li>
                     <li class="nav-item">
-                      <a class="nav-link" href="#">Sessions</a>
+                      <a class="nav-link" href="#">About us</a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link" href="#">Opportunities</a>
                     </li>
                     <li class="nav-item dropdown">
                       <a
@@ -93,7 +87,7 @@
                         data-bs-toggle="dropdown"
                         aria-expanded="false"
                       >
-                        Media Hub
+                        Resources
                       </a>
                       <ul class="dropdown-menu">
                         <li><a class="dropdown-item" href="#">History</a></li>
@@ -117,125 +111,11 @@
                     </li>
 
                     <li class="nav-item">
-                      <a class="nav-link" href="#">Resources</a>
-                    </li>
-                    <li class="nav-item">
-                      <a class="nav-link" href="#">Schedule</a>
+                      <a class="nav-link" href="#">Contact us</a>
                     </li>
                   </ul>
-                </div>
-              </div>
-            </div>
-          </nav>
-        </header>
-        <!--hero starts -->
-        <section
-          class="section section--hero"
-          style="background-image: url('./assets/img/hero-img.jpg')"
-        >
-          <div class="container">
-            <div class="hero-content">
-              <h1
-                class="hero-title"
-                data-aos="fade-up"
-                data-aos-duration="1000"
-              >
-                agrobiodiversity conference 2024
-              </h1>
-              <p
-                class="lead"
-                data-aos="fade-up"
-                data-aos-duration="1000"
-                data-aos-delay="100"
-              >
-                Enriching nature and nutrition through agroecological knowledge,
-                seed management, and climate-smart business and finance models
-              </p>
-
-              <div class="stats">
-                <div class="stats-item">
-                  <div class="stats-counter">
-                    <span class="js-counter">30</span>
-                  </div>
-                  <div class="stats-label">DAYS</div>
-                </div>
-                <div class="stats-item">
-                  <div class="stats-counter">
-                    <span class="js-counter">19</span>
-                  </div>
-                  <div class="stats-label">HOURS</div>
-                </div>
-                <div class="stats-item">
-                  <div class="stats-counter">
-                    <span class="js-counter">20</span>
-                  </div>
-                  <div class="stats-label">MINUTES</div>
-                </div>
-                <div class="stats-item">
-                  <div class="stats-counter">
-                    <span class="js-counter">08</span>
-                  </div>
-                  <div class="stats-label">SECONDS</div>
-                </div>
-              </div>
-              <div
-                class="hero-btn-group"
-                data-aos="fade-up"
-                data-aos-duration="1000"
-                data-aos-delay="200"
-                data-aos-offset="0"
-              >
-                <a href="#" role="button" class="btn btn-outline-light hero-btn"
-                  >View Details
-                  <svg
-                    width="20"
-                    height="20"
-                    viewBox="0 0 20 20"
-                    fill="none"
-                    xmlns="http://www.w3.org/2000/svg"
-                  >
-                    <path
-                      d="M11.0673 10.4422L4.81729 16.6922C4.70002 16.8095 4.54096 16.8753 4.3751 16.8753C4.20925 16.8753 4.05019 16.8095 3.93292 16.6922C3.81564 16.5749 3.74976 16.4158 3.74976 16.25C3.74976 16.0841 3.81564 15.9251 3.93292 15.8078L9.74151 10L3.93292 4.19218C3.81564 4.07491 3.74976 3.91585 3.74976 3.75C3.74976 3.58414 3.81564 3.42508 3.93292 3.30781C4.05019 3.19053 4.20925 3.12465 4.3751 3.12465C4.54096 3.12465 4.70002 3.19053 4.81729 3.30781L11.0673 9.55781C11.1254 9.61585 11.1715 9.68478 11.203 9.76066C11.2344 9.83653 11.2506 9.91786 11.2506 10C11.2506 10.0821 11.2344 10.1635 11.203 10.2393C11.1715 10.3152 11.1254 10.3841 11.0673 10.4422ZM17.3173 9.55781L11.0673 3.30781C10.95 3.19053 10.791 3.12465 10.6251 3.12465C10.4593 3.12465 10.3002 3.19053 10.1829 3.30781C10.0656 3.42508 9.99976 3.58414 9.99976 3.75C9.99976 3.91585 10.0656 4.07491 10.1829 4.19218L15.9915 10L10.1829 15.8078C10.0656 15.9251 9.99976 16.0841 9.99976 16.25C9.99976 16.4158 10.0656 16.5749 10.1829 16.6922C10.3002 16.8095 10.4593 16.8753 10.6251 16.8753C10.791 16.8753 10.95 16.8095 11.0673 16.6922L17.3173 10.4422C17.3754 10.3841 17.4215 10.3152 17.453 10.2393C17.4844 10.1635 17.5006 10.0821 17.5006 10C17.5006 9.91786 17.4844 9.83653 17.453 9.76066C17.4215 9.68478 17.3754 9.61585 17.3173 9.55781Z"
-                      fill="white"
-                    />
-                  </svg>
-                </a>
-              </div>
-            </div>
-          </div>
-        </section>
-        <!--hero ends-->
-        <section class="section imageTextSection">
-          <div class="container">
-            <div class="row align-items-center">
-              <div class="col-md-5">
-                <figure class="imageTextSection__figure">
-                  <img
-                    src="./assets/img/about-us-img.jpg"
-                    class="rounded-4"
-                    alt=""
-                  />
-                </figure>
-              </div>
-              <div class="col-md-7 mt-3 mt-md-0">
-                <div class="imageTextSection__subtitle">About Us</div>
-                <h2
-                  class="imageTextSection__title section-title section-title--bordered"
-                >
-                  Harvesting Harmony: Agrodiversity Unleashed
-                </h2>
-                <div class="mb-4">
-                  <p>
-                    The conference will gather representatives from FFPOs and
-                    IPLC groups, governments, local and international civil
-                    society organizations and other stakeholders from Asia,
-                    Africa, Latin America and Europe to enhance peer learning
-                    through South-South and triangular cooperation.
-                  </p>
-                </div>
-                <div class="imageTextSection__cta">
-                  <a href="#" role="button" class="btn btn-outline-primary"
-                    >Explore More
+                  <a href="#" role="button" class="btn btn-outline-light"
+                    >Apply Now
                     <svg
                       width="20"
                       height="20"
@@ -246,236 +126,268 @@
                       <path
                         d="M11.0673 10.4422L4.81729 16.6922C4.70002 16.8095 4.54096 16.8753 4.3751 16.8753C4.20925 16.8753 4.05019 16.8095 3.93292 16.6922C3.81564 16.5749 3.74976 16.4158 3.74976 16.25C3.74976 16.0841 3.81564 15.9251 3.93292 15.8078L9.74151 10L3.93292 4.19218C3.81564 4.07491 3.74976 3.91585 3.74976 3.75C3.74976 3.58414 3.81564 3.42508 3.93292 3.30781C4.05019 3.19053 4.20925 3.12465 4.3751 3.12465C4.54096 3.12465 4.70002 3.19053 4.81729 3.30781L11.0673 9.55781C11.1254 9.61585 11.1715 9.68478 11.203 9.76066C11.2344 9.83653 11.2506 9.91786 11.2506 10C11.2506 10.0821 11.2344 10.1635 11.203 10.2393C11.1715 10.3152 11.1254 10.3841 11.0673 10.4422ZM17.3173 9.55781L11.0673 3.30781C10.95 3.19053 10.791 3.12465 10.6251 3.12465C10.4593 3.12465 10.3002 3.19053 10.1829 3.30781C10.0656 3.42508 9.99976 3.58414 9.99976 3.75C9.99976 3.91585 10.0656 4.07491 10.1829 4.19218L15.9915 10L10.1829 15.8078C10.0656 15.9251 9.99976 16.0841 9.99976 16.25C9.99976 16.4158 10.0656 16.5749 10.1829 16.6922C10.3002 16.8095 10.4593 16.8753 10.6251 16.8753C10.791 16.8753 10.95 16.8095 11.0673 16.6922L17.3173 10.4422C17.3754 10.3841 17.4215 10.3152 17.453 10.2393C17.4844 10.1635 17.5006 10.0821 17.5006 10C17.5006 9.91786 17.4844 9.83653 17.453 9.76066C17.4215 9.68478 17.3754 9.61585 17.3173 9.55781Z"
                         fill="white"
-                      />
+                      ></path>
                     </svg>
                   </a>
                 </div>
               </div>
             </div>
+          </nav>
+        </header>
+        <!--hero starts -->
+        <section class="section section--hero hero">
+          <div class="hero-item">
+            <a href="#" class="card card--image">
+              <div class="card-header">
+                <h5 class="card-title stretched-link">MEDICAL STAFFING</h5>
+              </div>
+              <img
+                src="./assets/img/Medical Staffing.jpg"
+                class="card-bgimage"
+                alt=""
+              />
+            </a>
+          </div>
+          <div class="hero-item">
+            <a href="#" class="card card--image">
+              <div class="card-header">
+                <h5 class="card-title stretched-link">GLOBAL STAFFING</h5>
+              </div>
+              <img
+                src="./assets/img/global staffing.jpg"
+                class="card-bgimage"
+                alt=""
+              />
+            </a>
+          </div>
+          <div class="hero-item">
+            <a href="#" class="card card--image">
+              <div class="card-header">
+                <h5 class="card-title stretched-link">NURSING CAREER</h5>
+              </div>
+              <img
+                src="./assets/img/nursing career.jpg"
+                class="card-bgimage"
+                alt=""
+              />
+            </a>
           </div>
         </section>
-
-        <section class="section">
+        <!--hero ends-->
+        <section class="section imageTextSection">
           <div class="container">
-            <h4 class="section-title text-center section-title--bordered">
-              OUR SESSIONS
-            </h4>
-
-            <div class="card-columns card-columns--grid">
-              <a href="#" class="card card--image card--one">
-                <div class="card-header">
-                  <h5 class="card-title stretched-link">
-                    Agrobiodiversity- What it is and why it matters (in-person
-                    and virtual)
-                  </h5>
+            <div class="row align-items-center">
+              <div class="col-lg-6 mb-4 mb-lg-0">
+                <div class="imageTextSection__content">
+                  <h2 class="imageTextSection__title section-title">
+                    Your Premier Healthcare Staffing Partner
+                  </h2>
+                  <div class="mb-3">
+                    <p>
+                      Lorem ipsum dolor sit amet, consectetur adipiscing elit,
+                      sed do eiusmod tempor incididunt ut labore et dolore magna
+                      aliqua. Ut enim ad minim veniam, quis nostrud exercitation
+                      ullamco laboris nisi ut aliquip ex ea commodo consequat.
+                    </p>
+                  </div>
+                  <div class="stats">
+                    <div class="stats-item">
+                      <div class="stats-counter">
+                        <span class="js-counter">100</span>K+
+                      </div>
+                      <div class="stats-label">Job Placements</div>
+                    </div>
+                    <div class="stats-item">
+                      <div class="stats-counter">
+                        <span class="js-counter">200</span>
+                      </div>
+                      <div class="stats-label">Daily Job Post</div>
+                    </div>
+                    <div class="stats-item">
+                      <div class="stats-counter">
+                        <span class="js-counter">60</span>M
+                      </div>
+                      <div class="stats-label">Active users</div>
+                    </div>
+                  </div>
+                  <div class="imageTextSection__cta">
+                    <a href="#" role="button" class="btn btn-outline-dark"
+                      >Get Started
+                      <svg
+                        width="20"
+                        height="20"
+                        viewBox="0 0 20 20"
+                        fill="none"
+                        xmlns="http://www.w3.org/2000/svg"
+                      >
+                        <path
+                          d="M11.0673 10.4422L4.81729 16.6922C4.70002 16.8095 4.54096 16.8753 4.3751 16.8753C4.20925 16.8753 4.05019 16.8095 3.93292 16.6922C3.81564 16.5749 3.74976 16.4158 3.74976 16.25C3.74976 16.0841 3.81564 15.9251 3.93292 15.8078L9.74151 10L3.93292 4.19218C3.81564 4.07491 3.74976 3.91585 3.74976 3.75C3.74976 3.58414 3.81564 3.42508 3.93292 3.30781C4.05019 3.19053 4.20925 3.12465 4.3751 3.12465C4.54096 3.12465 4.70002 3.19053 4.81729 3.30781L11.0673 9.55781C11.1254 9.61585 11.1715 9.68478 11.203 9.76066C11.2344 9.83653 11.2506 9.91786 11.2506 10C11.2506 10.0821 11.2344 10.1635 11.203 10.2393C11.1715 10.3152 11.1254 10.3841 11.0673 10.4422ZM17.3173 9.55781L11.0673 3.30781C10.95 3.19053 10.791 3.12465 10.6251 3.12465C10.4593 3.12465 10.3002 3.19053 10.1829 3.30781C10.0656 3.42508 9.99976 3.58414 9.99976 3.75C9.99976 3.91585 10.0656 4.07491 10.1829 4.19218L15.9915 10L10.1829 15.8078C10.0656 15.9251 9.99976 16.0841 9.99976 16.25C9.99976 16.4158 10.0656 16.5749 10.1829 16.6922C10.3002 16.8095 10.4593 16.8753 10.6251 16.8753C10.791 16.8753 10.95 16.8095 11.0673 16.6922L17.3173 10.4422C17.3754 10.3841 17.4215 10.3152 17.453 10.2393C17.4844 10.1635 17.5006 10.0821 17.5006 10C17.5006 9.91786 17.4844 9.83653 17.453 9.76066C17.4215 9.68478 17.3754 9.61585 17.3173 9.55781Z"
+                        ></path>
+                      </svg>
+                    </a>
+                  </div>
                 </div>
-                <img
-                  src="./assets/img/agrobiodiversity-img.jpg"
-                  class="card-bgimage"
-                  alt=""
-                />
-              </a>
-              <a href="#" class="card card--image card--two">
-                <div class="card-header">
-                  <h5 class="card-title stretched-link">
-                    How policies shape agroecology approach shape Lorem ipsum,
-                    dolor sit amet consectetur adipisicing elit.
-                  </h5>
-                </div>
-                <img
-                  src="./assets/img/how-policies.jpg"
-                  class="card-bgimage"
-                  alt=""
-                />
-              </a>
-              <a href="#" class="card card--image card--three">
-                <div class="card-header">
-                  <h5 class="card-title stretched-link">
-                    Traditional knowledge of agrofo... Lorem ipsum, dolor sit
-                    amet consectetur adipisicing elit.
-                  </h5>
-                </div>
-                <img
-                  src="./assets/img/traditional-img.jpg"
-                  class="card-bgimage"
-                  alt=""
-                />
-              </a>
-              <a href="#" class="card card--image card--four">
-                <div class="card-header">
-                  <h5 class="card-title stretched-link">
-                    Seed management techniques and inno Lorem ipsum, dolor sit
-                    amet consectetur adipisicing elit.
-                  </h5>
-                </div>
-                <img
-                  src="./assets/img/seed-img.jpg"
-                  class="card-bgimage"
-                  alt=""
-                />
-              </a>
-              <a href="#" class="card card--image card--five">
-                <div class="card-header">
-                  <h5 class="card-title stretched-link">
-                    Enterprise innovations that en Lorem ipsum, dolor sit amet
-                    consectetur adipisicing elit.
-                  </h5>
-                </div>
-                <img
-                  src="./assets/img/enterprise-img.jpg"
-                  class="card-bgimage"
-                  alt=""
-                />
-              </a>
-              <a href="#" class="card card--image card--six">
-                <div class="card-header">
-                  <h5 class="card-title stretched-link">
-                    Nature finance - improving flows to FFPOs and IPLCs
-                  </h5>
-                </div>
-                <img
-                  src="./assets/img/nature-img.jpg"
-                  class="card-bgimage"
-                  alt=""
-                />
-              </a>
+              </div>
+              <div class="col-lg-6">
+                <figure class="imageTextSection__figure">
+                  <figcaption>
+                    <img src="./assets/img/check-green-circle.svg" alt="" />
+                    <div class="figcaption__content">
+                      <div class="heading heading-4">You Are Hired</div>
+                      <p class="mb-0">
+                        Congrats you got the job as Health Assistant at Grande.
+                      </p>
+                    </div>
+                  </figcaption>
+                  <img src="./assets/img/content-image.png" class="" alt="" />
+                </figure>
+              </div>
             </div>
           </div>
         </section>
-        <section class="section">
+
+        <section class="section section--jobs Jobs">
           <div class="container">
-            <h4 class="section-title text-center section-title--bordered">
-              OUR SPEAKERS
-            </h4>
+            <div class="section-header">
+              <h2 class="section-title text-center heading-1 mb-0">
+                Recently Available Jobs
+              </h2>
+            </div>
+
             <div class="row">
-              <div class="col-sm-6 col-lg-3 mb-4 mb-lg-0">
-                <div class="card card--user">
-                  <img
-                    src="./assets/img/speakers/surendra-img.jpg"
-                    alt=""
-                    class="card-img"
-                  />
+              <div class="col-lg-4">
+                <div class="card card--jobs">
                   <div class="card-body">
-                    <div class="card-title">Surendra Raj Pandey</div>
-                    <div class="card-subtitle">
-                      Chief Minister, Gandaki Province
+                    <div class="card-content">
+                      <h6 class="card-title">
+                        <a href="#" class="stretched-link"
+                          >Grande Hospital Private Limited</a
+                        >
+                      </h6>
+                      <div class="icon-list">
+                        <svg
+                          width="12"
+                          height="15"
+                          viewBox="0 0 12 15"
+                          fill="none"
+                          xmlns="http://www.w3.org/2000/svg"
+                        >
+                          <path
+                            d="M6 3.21432C5.4606 3.21432 4.93331 3.37142 4.48481 3.66574C4.03631 3.96007 3.68675 4.37841 3.48033 4.86786C3.27391 5.35731 3.2199 5.89589 3.32513 6.41549C3.43036 6.93508 3.69011 7.41236 4.07153 7.78697C4.45294 8.16158 4.9389 8.41669 5.46794 8.52005C5.99697 8.6234 6.54534 8.57036 7.04368 8.36762C7.54203 8.16488 7.96797 7.82156 8.26764 7.38107C8.56732 6.94057 8.72727 6.42269 8.72727 5.89292C8.72727 5.18251 8.43994 4.5012 7.92847 3.99886C7.41701 3.49653 6.72332 3.21432 6 3.21432ZM6 7.50008C5.67636 7.50008 5.35998 7.40582 5.09089 7.22922C4.82179 7.05262 4.61205 6.80162 4.4882 6.50795C4.36434 6.21428 4.33194 5.89113 4.39508 5.57938C4.45822 5.26762 4.61407 4.98125 4.84292 4.75648C5.07177 4.53172 5.36334 4.37865 5.68076 4.31664C5.99818 4.25463 6.3272 4.28645 6.62621 4.40809C6.92522 4.52974 7.18078 4.73573 7.36059 5.00003C7.54039 5.26432 7.63636 5.57505 7.63636 5.89292C7.63636 6.31916 7.46396 6.72795 7.15708 7.02935C6.85021 7.33075 6.43399 7.50008 6 7.50008ZM6 0C4.40926 0.00177238 2.88418 0.623201 1.75935 1.72795C0.634525 2.83271 0.00180459 4.33056 0 5.89292C0 7.99562 0.989318 10.2242 2.86364 12.3383C3.70583 13.2936 4.65372 14.1538 5.68977 14.9031C5.78149 14.9662 5.89075 15 6.00273 15C6.1147 15 6.22397 14.9662 6.31568 14.9031C7.34983 14.1535 8.29587 13.2933 9.13636 12.3383C11.008 10.2242 12 7.99562 12 5.89292C11.9982 4.33056 11.3655 2.83271 10.2406 1.72795C9.11582 0.623201 7.59074 0.00177238 6 0ZM6 13.7948C4.87295 12.9242 1.09091 9.72666 1.09091 5.89292C1.09091 4.61418 1.60812 3.38782 2.52875 2.48362C3.44938 1.57942 4.69803 1.07144 6 1.07144C7.30197 1.07144 8.55062 1.57942 9.47125 2.48362C10.3919 3.38782 10.9091 4.61418 10.9091 5.89292C10.9091 9.72532 7.12705 12.9242 6 13.7948Z"
+                            fill="#131515"
+                          />
+                        </svg>
+
+                        <div>Kathmandu, Nepal</div>
+                      </div>
+                      <div class="card-text">
+                        <p><strong>Staff Nurse</strong></p>
+                        <p>$3,200 to $4,000 monthly</p>
+                        <p>2 Years Experience</p>
+                      </div>
                     </div>
-                    <ul class="social-links">
-                      <li>
-                        <a href="#" title="Facebook"
-                          ><img src="./assets/img/facebook.svg" alt=""
-                        /></a>
-                      </li>
-                      <li>
-                        <a href="#" title="Instagram"
-                          ><img src="./assets/img/instagram.svg" alt=""
-                        /></a>
-                      </li>
-                      <li>
-                        <a href="#" title="Twitter"
-                          ><img src="./assets/img/twitter.svg" alt=""
-                        /></a>
-                      </li>
-                    </ul>
+                    <figure class="card-figure">
+                      <img src="./assets/img/job-img.jpg" width="80" alt="" />
+                    </figure>
                   </div>
                 </div>
               </div>
-              <div class="col-sm-6 col-lg-3 mb-4 mb-lg-0">
-                <div class="card card--user">
-                  <img
-                    src="./assets/img/speakers/deepak-img.jpg"
-                    alt=""
-                    class="card-img"
-                  />
+              <div class="col-lg-4">
+                <div class="card card--jobs">
                   <div class="card-body">
-                    <div class="card-title">Deepak Kumar Kharal</div>
-                    <div class="card-subtitle">
-                      Secretary, Ministry of Forests and Environment
+                    <div class="card-content">
+                      <h6 class="card-title">
+                        <a href="#" class="stretched-link"
+                          >Grande Hospital Private Limited</a
+                        >
+                      </h6>
+                      <div class="icon-list">
+                        <svg
+                          width="12"
+                          height="15"
+                          viewBox="0 0 12 15"
+                          fill="none"
+                          xmlns="http://www.w3.org/2000/svg"
+                        >
+                          <path
+                            d="M6 3.21432C5.4606 3.21432 4.93331 3.37142 4.48481 3.66574C4.03631 3.96007 3.68675 4.37841 3.48033 4.86786C3.27391 5.35731 3.2199 5.89589 3.32513 6.41549C3.43036 6.93508 3.69011 7.41236 4.07153 7.78697C4.45294 8.16158 4.9389 8.41669 5.46794 8.52005C5.99697 8.6234 6.54534 8.57036 7.04368 8.36762C7.54203 8.16488 7.96797 7.82156 8.26764 7.38107C8.56732 6.94057 8.72727 6.42269 8.72727 5.89292C8.72727 5.18251 8.43994 4.5012 7.92847 3.99886C7.41701 3.49653 6.72332 3.21432 6 3.21432ZM6 7.50008C5.67636 7.50008 5.35998 7.40582 5.09089 7.22922C4.82179 7.05262 4.61205 6.80162 4.4882 6.50795C4.36434 6.21428 4.33194 5.89113 4.39508 5.57938C4.45822 5.26762 4.61407 4.98125 4.84292 4.75648C5.07177 4.53172 5.36334 4.37865 5.68076 4.31664C5.99818 4.25463 6.3272 4.28645 6.62621 4.40809C6.92522 4.52974 7.18078 4.73573 7.36059 5.00003C7.54039 5.26432 7.63636 5.57505 7.63636 5.89292C7.63636 6.31916 7.46396 6.72795 7.15708 7.02935C6.85021 7.33075 6.43399 7.50008 6 7.50008ZM6 0C4.40926 0.00177238 2.88418 0.623201 1.75935 1.72795C0.634525 2.83271 0.00180459 4.33056 0 5.89292C0 7.99562 0.989318 10.2242 2.86364 12.3383C3.70583 13.2936 4.65372 14.1538 5.68977 14.9031C5.78149 14.9662 5.89075 15 6.00273 15C6.1147 15 6.22397 14.9662 6.31568 14.9031C7.34983 14.1535 8.29587 13.2933 9.13636 12.3383C11.008 10.2242 12 7.99562 12 5.89292C11.9982 4.33056 11.3655 2.83271 10.2406 1.72795C9.11582 0.623201 7.59074 0.00177238 6 0ZM6 13.7948C4.87295 12.9242 1.09091 9.72666 1.09091 5.89292C1.09091 4.61418 1.60812 3.38782 2.52875 2.48362C3.44938 1.57942 4.69803 1.07144 6 1.07144C7.30197 1.07144 8.55062 1.57942 9.47125 2.48362C10.3919 3.38782 10.9091 4.61418 10.9091 5.89292C10.9091 9.72532 7.12705 12.9242 6 13.7948Z"
+                            fill="#131515"
+                          />
+                        </svg>
+
+                        <div>Kathmandu, Nepal</div>
+                      </div>
+                      <div class="card-text">
+                        <p><strong>Staff Nurse</strong></p>
+                        <p>$3,200 to $4,000 monthly</p>
+                        <p>2 Years Experience</p>
+                      </div>
                     </div>
-                    <ul class="social-links">
-                      <li>
-                        <a href="#" title="Facebook"
-                          ><img src="./assets/img/facebook.svg" alt=""
-                        /></a>
-                      </li>
-                      <li>
-                        <a href="#" title="Instagram"
-                          ><img src="./assets/img/instagram.svg" alt=""
-                        /></a>
-                      </li>
-                      <li>
-                        <a href="#" title="Twitter"
-                          ><img src="./assets/img/twitter.svg" alt=""
-                        /></a>
-                      </li>
-                    </ul>
+                    <figure class="card-figure">
+                      <img src="./assets/img/job-img.jpg" width="80" alt="" />
+                    </figure>
                   </div>
                 </div>
               </div>
-              <div class="col-sm-6 col-lg-3 mb-4 mb-lg-0">
-                <div class="card card--user">
-                  <img
-                    src="./assets/img/speakers/bharat-img.jpg"
-                    alt=""
-                    class="card-img"
-                  />
+              <div class="col-lg-4">
+                <div class="card card--jobs">
                   <div class="card-body">
-                    <div class="card-title">Bharat Bhandari</div>
-                    <div class="card-subtitle">Executive Director, LI-BIRD</div>
-                    <ul class="social-links">
-                      <li>
-                        <a href="#" title="Facebook"
-                          ><img src="./assets/img/facebook.svg" alt=""
-                        /></a>
-                      </li>
-                      <li>
-                        <a href="#" title="Instagram"
-                          ><img src="./assets/img/instagram.svg" alt=""
-                        /></a>
-                      </li>
-                      <li>
-                        <a href="#" title="Twitter"
-                          ><img src="./assets/img/twitter.svg" alt=""
-                        /></a>
-                      </li>
-                    </ul>
-                  </div>
-                </div>
-              </div>
-              <div class="col-sm-6 col-lg-3 mb-4 mb-lg-0">
-                <div class="card card--user">
-                  <img
-                    src="./assets/img/speakers/ken-img.jpg"
-                    alt=""
-                    class="card-img"
-                  />
-                  <div class="card-body">
-                    <div class="card-title">Ken Shimizu</div>
-                    <div class="card-subtitle">FAO Representative in Nepal</div>
-                    <ul class="social-links">
-                      <li>
-                        <a href="#" title="Facebook"
-                          ><img src="./assets/img/facebook.svg" alt=""
-                        /></a>
-                      </li>
-                      <li>
-                        <a href="#" title="Instagram"
-                          ><img src="./assets/img/instagram.svg" alt=""
-                        /></a>
-                      </li>
-                      <li>
-                        <a href="#" title="Twitter"
-                          ><img src="./assets/img/twitter.svg" alt=""
-                        /></a>
-                      </li>
-                    </ul>
+                    <div class="card-content">
+                      <h6 class="card-title">
+                        <a href="#" class="stretched-link"
+                          >Grande Hospital Private Limited</a
+                        >
+                      </h6>
+                      <div class="icon-list">
+                        <svg
+                          width="12"
+                          height="15"
+                          viewBox="0 0 12 15"
+                          fill="none"
+                          xmlns="http://www.w3.org/2000/svg"
+                        >
+                          <path
+                            d="M6 3.21432C5.4606 3.21432 4.93331 3.37142 4.48481 3.66574C4.03631 3.96007 3.68675 4.37841 3.48033 4.86786C3.27391 5.35731 3.2199 5.89589 3.32513 6.41549C3.43036 6.93508 3.69011 7.41236 4.07153 7.78697C4.45294 8.16158 4.9389 8.41669 5.46794 8.52005C5.99697 8.6234 6.54534 8.57036 7.04368 8.36762C7.54203 8.16488 7.96797 7.82156 8.26764 7.38107C8.56732 6.94057 8.72727 6.42269 8.72727 5.89292C8.72727 5.18251 8.43994 4.5012 7.92847 3.99886C7.41701 3.49653 6.72332 3.21432 6 3.21432ZM6 7.50008C5.67636 7.50008 5.35998 7.40582 5.09089 7.22922C4.82179 7.05262 4.61205 6.80162 4.4882 6.50795C4.36434 6.21428 4.33194 5.89113 4.39508 5.57938C4.45822 5.26762 4.61407 4.98125 4.84292 4.75648C5.07177 4.53172 5.36334 4.37865 5.68076 4.31664C5.99818 4.25463 6.3272 4.28645 6.62621 4.40809C6.92522 4.52974 7.18078 4.73573 7.36059 5.00003C7.54039 5.26432 7.63636 5.57505 7.63636 5.89292C7.63636 6.31916 7.46396 6.72795 7.15708 7.02935C6.85021 7.33075 6.43399 7.50008 6 7.50008ZM6 0C4.40926 0.00177238 2.88418 0.623201 1.75935 1.72795C0.634525 2.83271 0.00180459 4.33056 0 5.89292C0 7.99562 0.989318 10.2242 2.86364 12.3383C3.70583 13.2936 4.65372 14.1538 5.68977 14.9031C5.78149 14.9662 5.89075 15 6.00273 15C6.1147 15 6.22397 14.9662 6.31568 14.9031C7.34983 14.1535 8.29587 13.2933 9.13636 12.3383C11.008 10.2242 12 7.99562 12 5.89292C11.9982 4.33056 11.3655 2.83271 10.2406 1.72795C9.11582 0.623201 7.59074 0.00177238 6 0ZM6 13.7948C4.87295 12.9242 1.09091 9.72666 1.09091 5.89292C1.09091 4.61418 1.60812 3.38782 2.52875 2.48362C3.44938 1.57942 4.69803 1.07144 6 1.07144C7.30197 1.07144 8.55062 1.57942 9.47125 2.48362C10.3919 3.38782 10.9091 4.61418 10.9091 5.89292C10.9091 9.72532 7.12705 12.9242 6 13.7948Z"
+                            fill="#131515"
+                          />
+                        </svg>
+
+                        <div>Kathmandu, Nepal</div>
+                      </div>
+                      <div class="card-text">
+                        <p><strong>Staff Nurse</strong></p>
+                        <p>$3,200 to $4,000 monthly</p>
+                        <p>2 Years Experience</p>
+                      </div>
+                    </div>
+                    <figure class="card-figure">
+                      <img src="./assets/img/job-img.jpg" width="80" alt="" />
+                    </figure>
                   </div>
                 </div>
               </div>
             </div>
-            <div class="text-center mt-4">
-              <a href="#" role="button" class="btn btn-primary"
-                >View All
+          </div>
+        </section>
+
+        <section
+          class="section section--bgimage ctaBlock"
+          style="background-image: url(./assets/img/cta-bg.jpg)"
+          data-background
+        >
+          <div class="container">
+            <div class="d-flex flex-column align-items-center text-center">
+              <h4 class="section-title heading-1">
+                Connecting Talent to Tomorrow's Success
+              </h4>
+              <p>
+                At Srimatrix Health, we're dedicated to connecting talents with
+                opportunities that transform lives. Navigate your career path
+                with a platform designed to empower your aspirations. Your
+                success story begins here.
+              </p>
+              <a href="#" role="button" class="btn btn-light"
+                >Get Started
                 <svg
                   width="20"
                   height="20"
@@ -495,197 +407,197 @@
             </div>
           </div>
         </section>
-        <section
-          class="section section--bgimage getDirectionSection"
-          style="background-image: url(./assets/img/conference-venue-img.jpg)"
-          data-background
-        >
+        <section class="section imageTextSection">
           <div class="container">
-            <div class="row">
-              <div
-                class="col-lg-auto align-self-lg-center mb-3 mb-lg-0 d-flex flex-column align-items-center d-lg-block"
-              >
-                <h4 class="section-title">CONFERENCE VENUE</h4>
-
-                <ul class="list-unstyled contact-links">
-                  <li>
-                    <img src="./assets/img/MapPin.svg" alt="" />
-                    <div>Hotel Grande, Pokhara</div>
-                  </li>
-                </ul>
-                <a href="#" role="button" class="btn btn-primary"
-                  >Get Direction
-                  <svg
-                    width="20"
-                    height="20"
-                    viewBox="0 0 20 20"
-                    fill="none"
-                    xmlns="http://www.w3.org/2000/svg"
-                  >
-                    <g id="CaretDoubleRight">
-                      <path
-                        id="Vector"
-                        d="M11.0675 10.4422L4.81753 16.6922C4.70026 16.8094 4.5412 16.8753 4.37535 16.8753C4.2095 16.8753 4.05044 16.8094 3.93316 16.6922C3.81588 16.5749 3.75 16.4158 3.75 16.25C3.75 16.0841 3.81588 15.9251 3.93316 15.8078L9.74175 9.99998L3.93316 4.19217C3.81588 4.07489 3.75 3.91583 3.75 3.74998C3.75 3.58413 3.81588 3.42507 3.93316 3.30779C4.05044 3.19052 4.2095 3.12463 4.37535 3.12463C4.5412 3.12463 4.70026 3.19052 4.81753 3.30779L11.0675 9.55779C11.1256 9.61584 11.1717 9.68477 11.2032 9.76064C11.2347 9.83652 11.2508 9.91785 11.2508 9.99998C11.2508 10.0821 11.2347 10.1634 11.2032 10.2393C11.1717 10.3152 11.1256 10.3841 11.0675 10.4422ZM17.3175 9.55779L11.0675 3.30779C10.9503 3.19052 10.7912 3.12463 10.6253 3.12463C10.4595 3.12463 10.3004 3.19052 10.1832 3.30779C10.0659 3.42507 10 3.58413 10 3.74998C10 3.91583 10.0659 4.07489 10.1832 4.19217L15.9918 9.99998L10.1832 15.8078C10.0659 15.9251 10 16.0841 10 16.25C10 16.4158 10.0659 16.5749 10.1832 16.6922C10.3004 16.8094 10.4595 16.8753 10.6253 16.8753C10.7912 16.8753 10.9503 16.8094 11.0675 16.6922L17.3175 10.4422C17.3756 10.3841 17.4217 10.3152 17.4532 10.2393C17.4847 10.1634 17.5008 10.0821 17.5008 9.99998C17.5008 9.91785 17.4847 9.83652 17.4532 9.76064C17.4217 9.68477 17.3756 9.61584 17.3175 9.55779Z"
-                        fill="white"
-                      />
-                    </g>
-                  </svg>
-                </a>
-              </div>
-              <div class="col-lg-4 mb-3 mb-lg-0">
-                <figure class="getDirectionSection__figures">
-                  <img src="./assets/img/pool front.jpg" class="gts-a" alt="" />
-                  <img src="./assets/img/pool.jpg" alt="" class="gts-b" />
-                  <img src="./assets/img/exterior 1.jpg" alt="" class="gts-c" />
+            <div class="row align-items-center">
+              <div class="col-lg-6 mb-4 mb-lg-0">
+                <div class="imageTextSection__content">
                   <img
-                    src="./assets/img/hotel img 1.jpg"
+                    src="./assets/img/illustration-kite.svg"
+                    class="imgDecorator imgDecorator--TopRight"
                     alt=""
+                  />
+                  <img
+                    src="./assets/img/illustration-arrow.svg"
+                    class="imgDecorator imgDecorator--BottomLeft"
+                    alt=""
+                  />
+                  <div class="imageTextSection__subtitle">
+                    Your Dream is One Flight Away
+                  </div>
+                  <h2 class="imageTextSection__title section-title">
+                    Your Premier Healthcare Staffing Partner
+                  </h2>
+                  <div class="mb-3">
+                    <p>
+                      Lorem ipsum dolor sit amet, consectetur adipiscing elit,
+                      sed do eiusmod tempor incididunt ut labore et dolore magna
+                      aliqua. Ut enim ad minim veniam, quis nostrud exercitation
+                      ullamco laboris nisi ut aliquip ex ea commodo consequat.
+                    </p>
+                  </div>
+                </div>
+              </div>
+              <div class="col-lg-6">
+                <figure class="imageTextSection__figureGrid">
+                  <img
+                    src="./assets/img/female-doctor-holding-digital-tablet.jpg"
+                    class="gts-a"
+                    alt=""
+                  />
+                  <img
+                    src="./assets/img/doctors-nurse-interacting-while-walking.jpg"
+                    class="gts-b"
+                    alt=""
+                  />
+                  <img
+                    src="./assets/img/team-doctors-meeting.jpg"
+                    class="gts-c"
+                    alt=""
+                  />
+                  <img
+                    src="./assets/img/business-people-using-tablet-2.jpg"
                     class="gts-d"
+                    alt=""
                   />
                 </figure>
               </div>
-              <div class="col-lg align-self-center">
-                <div class="ratio ratio-1x1">
-                  <iframe
-                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d14130.927050714707!2d85.32951860188965!3d27.69468421903351!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x39eb199a06c2eaf9%3A0xc5670a9173e161de!2sNew%20Baneshwor%2C%20Kathmandu%2044600!5e0!3m2!1sen!2snp!4v1709472751312!5m2!1sen!2snp"
-                    width="600"
-                    height="450"
-                    style="border: 0"
-                    allowfullscreen=""
-                    loading="lazy"
-                    referrerpolicy="no-referrer-when-downgrade"
-                  ></iframe>
-                </div>
-              </div>
             </div>
           </div>
         </section>
 
-        <section class="section section--lightGray statsSection">
-          <div class="container">
-            <div class="row">
-              <div class="col-md-6">
-                <img src="./assets/img/tree.png" alt="" />
-              </div>
-              <div class="col-md-6 mt-4 mt-md-0">
-                <div class="stats stats--dark">
-                  <div class="stats-item">
-                    <div class="stats-counter">
-                      <span class="js-counter">6</span>
+        <section class="section section--whatWeDo">
+          <header class="section-header text-center">
+            <div class="container">
+              <h2 class="section-title heading-1 mb-4">What We Do</h2>
+              <p>
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+                eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
+                enim ad minim veniam, quis nostrud exercitation. Lorem ipsum
+                dolor sit amet, consectetur adipiscing elit, sed do eiusmod
+                tempor incididunt ut labore et dolore magna aliqua. Ut enim ad
+                minim veniam, quis nostrud exercitation.
+              </p>
+            </div>
+          </header>
+          <div class="whatwedoContent">
+            <div class="container">
+              <div class="row align-items-center">
+                <div class="col-lg-4">
+                  <a href="#" class="card card--image card--square">
+                    <div class="card-header">
+                      <h5 class="card-title stretched-link">
+                        Medical StaffingG
+                      </h5>
                     </div>
-                    <div class="stats-label">DAYS</div>
-                  </div>
-                  <div class="stats-item">
-                    <div class="stats-counter">
-                      <span class="js-counter">20</span>+
-                    </div>
-                    <div class="stats-label">SPEAKERS</div>
-                  </div>
-                  <div class="stats-item">
-                    <div class="stats-counter">
-                      <span class="js-counter">100</span>+
-                    </div>
-                    <div class="stats-label">ATTENDEES</div>
-                  </div>
-                  <div class="stats-item">
-                    <div class="stats-counter">
-                      <span class="js-counter">5</span>+
-                    </div>
-                    <div class="stats-label">COUNTRIES ATTENDEES</div>
-                  </div>
+                    <img
+                      src="./assets/img/Medical Staffing.jpg"
+                      class="card-bgimage"
+                      alt=""
+                    />
+                  </a>
                 </div>
-                <div class="text-center mt-5">
-                  <a href="#" role="button" class="btn btn-primary"
-                    >Register Now
-                    <svg
-                      width="20"
-                      height="20"
-                      viewBox="0 0 20 20"
-                      fill="none"
-                      xmlns="http://www.w3.org/2000/svg"
-                    >
-                      <g id="CaretDoubleRight">
-                        <path
-                          id="Vector"
-                          d="M11.0675 10.4422L4.81753 16.6922C4.70026 16.8094 4.5412 16.8753 4.37535 16.8753C4.2095 16.8753 4.05044 16.8094 3.93316 16.6922C3.81588 16.5749 3.75 16.4158 3.75 16.25C3.75 16.0841 3.81588 15.9251 3.93316 15.8078L9.74175 9.99998L3.93316 4.19217C3.81588 4.07489 3.75 3.91583 3.75 3.74998C3.75 3.58413 3.81588 3.42507 3.93316 3.30779C4.05044 3.19052 4.2095 3.12463 4.37535 3.12463C4.5412 3.12463 4.70026 3.19052 4.81753 3.30779L11.0675 9.55779C11.1256 9.61584 11.1717 9.68477 11.2032 9.76064C11.2347 9.83652 11.2508 9.91785 11.2508 9.99998C11.2508 10.0821 11.2347 10.1634 11.2032 10.2393C11.1717 10.3152 11.1256 10.3841 11.0675 10.4422ZM17.3175 9.55779L11.0675 3.30779C10.9503 3.19052 10.7912 3.12463 10.6253 3.12463C10.4595 3.12463 10.3004 3.19052 10.1832 3.30779C10.0659 3.42507 10 3.58413 10 3.74998C10 3.91583 10.0659 4.07489 10.1832 4.19217L15.9918 9.99998L10.1832 15.8078C10.0659 15.9251 10 16.0841 10 16.25C10 16.4158 10.0659 16.5749 10.1832 16.6922C10.3004 16.8094 10.4595 16.8753 10.6253 16.8753C10.7912 16.8753 10.9503 16.8094 11.0675 16.6922L17.3175 10.4422C17.3756 10.3841 17.4217 10.3152 17.4532 10.2393C17.4847 10.1634 17.5008 10.0821 17.5008 9.99998C17.5008 9.91785 17.4847 9.83652 17.4532 9.76064C17.4217 9.68477 17.3756 9.61584 17.3175 9.55779Z"
-                          fill="white"
-                        />
-                      </g>
-                    </svg>
+                <div class="col-lg-4">
+                  <a href="#" class="card card--image card--portrait">
+                    <div class="card-header">
+                      <h5 class="card-title stretched-link">
+                        Medical StaffingG
+                      </h5>
+                    </div>
+                    <img
+                      src="./assets/img/Medical Staffing.jpg"
+                      class="card-bgimage"
+                      alt=""
+                    />
+                  </a>
+                </div>
+                <div class="col-lg-4">
+                  <a href="#" class="card card--image card--square">
+                    <div class="card-header">
+                      <h5 class="card-title stretched-link">
+                        Medical StaffingG
+                      </h5>
+                    </div>
+                    <img
+                      src="./assets/img/Medical Staffing.jpg"
+                      class="card-bgimage"
+                      alt=""
+                    />
                   </a>
                 </div>
               </div>
+              <img
+                src="./assets/img/illstrastion-whatwedo.svg"
+                class="imgDecorator"
+                alt=""
+              />
             </div>
           </div>
         </section>
-
-        <section class="section">
+        <section class="section--testimonials testimonials">
           <div class="container">
-            <h4 class="section-title text-center section-title--bordered">
-              OUR PARTNERS
-            </h4>
-            <div class="partners" id="partner-carousel">
-              <div>
-                <a href="#" class="partners__item">
-                  <img
-                    src="./assets/img//partner-logo/Ministry-of-FE.png"
-                    alt=""
-                  />
-                </a>
-              </div>
-              <div>
-                <div class="partners__item">
-                  <img src="./assets/img//partner-logo/Li-Bird.png" alt="" />
+            <header class="section-header text-center">
+              <h2 class="section-title heading-1 mb-4">Testimonials</h2>
+            </header>
+            <div class="testimonials-wrapper">
+              <div id="slidecontrols"></div>
+              <div class="testimonials js-testimonials">
+                <div class="testimonials-item">
+                  <div class="testimonials-section">
+                    <figure class="testimonials-figure">
+                      <img src="./assets/img/girl.jpg" alt="" />
+                    </figure>
+                    <div class="testimonials-content">
+                      <h3 class="testimonials-title">
+                        I am able to start my career as a Registered Nurse here
+                        at Texas. All thanks to Srimatrix Health.
+                      </h3>
+                      <div class="testimonials-text">
+                        Working with Srimatrix Health was an absolute breeze
+                        from start to finish. From the moment I was introduced
+                        to their team, they provided clear and comprehensive
+                        instructions, guiding me through each step of the
+                        process with ease and professionalism. Through a series
+                        of examinations and interviews, they ensured that I was
+                        well-prepared and confident, ultimately paving the way
+                        for me to realize my dream of becoming a Registered
+                        Nurse in the USA. Their support and expertise made all
+                        the difference, and I couldn't be more grateful for the
+                        opportunity they've helped me achieve.
+                      </div>
+                      <div class="testimonials-meta">
+                        <p><strong>Radhika Dangol</strong></p>
+                        <p>RN, North Texas Medical Center</p>
+                      </div>
+                    </div>
+                  </div>
                 </div>
-              </div>
-              <div>
-                <div class="partners__item">
-                  <img src="./assets/img//partner-logo/Logo-FAO.png" alt="" />
-                </div>
-              </div>
-              <div>
-                <div class="partners__item">
-                  <img src="./assets/img//partner-logo/FECOFUN.png" alt="" />
-                </div>
-              </div>
-              <div>
-                <div class="partners__item">
-                  <img src="./assets/img//partner-logo/iucn.png" alt="" />
-                </div>
-              </div>
-              <div>
-                <div class="partners__item">
-                  <img src="./assets/img//partner-logo/IIED_logo.png" alt="" />
-                </div>
-              </div>
-              <div>
-                <div class="partners__item">
-                  <img src="./assets/img//partner-logo/kumari.png" alt="" />
-                </div>
-              </div>
-              <div>
-                <div class="partners__item">
-                  <img src="./assets/img//partner-logo/kamana.png" alt="" />
-                </div>
-              </div>
-              <div>
-                <div class="partners__item">
-                  <img src="./assets/img//partner-logo/jamarko.png" alt="" />
-                </div>
-              </div>
-              <div>
-                <div class="partners__item">
-                  <img src="./assets/img//partner-logo/sastodeal.png" alt="" />
-                </div>
-              </div>
-              <div>
-                <div class="partners__item">
-                  <img src="./assets/img//partner-logo/roomtoread.png" alt="" />
-                </div>
-              </div>
-              <div>
-                <div class="partners__item">
-                  <img src="./assets/img//partner-logo/ashtanokai.png" alt="" />
+                <div class="testimonials-item">
+                  <div class="testimonials-section">
+                    <figure class="testimonials-figure">
+                      <img src="./assets/img/nursing career.jpg" alt="" />
+                    </figure>
+                    <div class="testimonials-content">
+                      <h3 class="testimonials-title">Nurshing Career.</h3>
+                      <div class="testimonials-text">
+                        Working with Srimatrix Health was an absolute breeze
+                        from start to finish. From the moment I was introduced
+                        to their team, they provided clear and comprehensive
+                        instructions, guiding me through each step of the
+                        process with ease and professionalism. Through a series
+                        of examinations and interviews, they ensured that I was
+                        well-prepared and confident, ultimately paving the way
+                        for me to realize my dream of becoming a Registered
+                        Nurse in the USA. Their support and expertise made all
+                        the difference, and I couldn't be more grateful for the
+                        opportunity they've helped me achieve.
+                      </div>
+                      <div class="testimonials-meta">
+                        <p><strong>Radhika Dangol</strong></p>
+                        <p>RN, North Texas Medical Center</p>
+                      </div>
+                    </div>
+                  </div>
                 </div>
               </div>
             </div>
@@ -702,15 +614,14 @@
                     <a href="#" class="footer-logo">
                       <img
                         width="270"
-                        src="./assets/img/footer-logo.png"
+                        src="./assets/img/logo.svg"
                         class="img-fluid footer-logo-img"
                         alt=" "
                       />
                     </a>
                     <p>
-                      Promoting production diversification, minimizing
-                      environmental harm while enhancing nature's functionality
-                      for production benefits.
+                      Srimatrix Health, we're dedicated to connecting talents
+                      with opportunities that transform lives.
                     </p>
 
                     <ul class="list-unstyled footer-social-links">
@@ -739,69 +650,68 @@
                           />
                         </a>
                       </li>
+                      <li>
+                        <a href="#" title="youtube" target="_blank">
+                          <img src="./assets/img/youtube.svg" alt="youtube" />
+                        </a>
+                      </li>
                     </ul>
                   </aside>
                 </div>
-                <div class="col-12 col-sm-6 col-md-4 col-lg-auto mt-4 mt-lg-0">
+                <div class="col-12 col-sm-6 col-md-4 col-lg-2 mt-4 mt-lg-0">
                   <aside class="widget aos-init">
-                    <h4 class="widget-title">WHO WE ARE</h4>
+                    <h4 class="widget-title">NAVIGATION</h4>
                     <ul class="menu">
                       <li>
-                        <a href="#">History</a>
+                        <a href="#">Home</a>
                       </li>
                       <li>
                         <a href="#">About us</a>
                       </li>
                       <li>
-                        <a href="#">Our Impact</a>
+                        <a href="#">Travel</a>
+                      </li>
+                    </ul>
+                  </aside>
+                </div>
+                <div class="col-12 col-sm-6 col-md-4 col-lg-2 mt-4 mt-lg-0">
+                  <aside class="widget">
+                    <h4 class="widget-title">FOR JOBSEEKERS</h4>
+                    <ul class="menu">
+                      <li>
+                        <a href="#">Register</a>
                       </li>
                       <li>
-                        <a href="#">Knowledge Center</a>
+                        <a href="#">FAQ</a>
+                      </li>
+                      <li>
+                        <a href="#">Blog</a>
                       </li>
                     </ul>
                   </aside>
                 </div>
                 <div class="col-12 col-sm-6 col-md-4 col-lg-auto mt-4 mt-lg-0">
-                  <aside class="widget">
-                    <h4 class="widget-title">WHAT WE DO</h4>
-                    <ul class="menu">
-                      <li>
-                        <a href="#">Education</a>
-                      </li>
-                      <li>
-                        <a href="#">Health and Nutrition</a>
-                      </li>
-                      <li>
-                        <a href="#">Advocacy</a>
-                      </li>
-                    </ul>
-                  </aside>
-                </div>
-                <div class="col-12 col-sm-6 col-md-4 col-lg-4 mt-4 mt-lg-0">
                   <aside class="widget">
                     <h4 class="widget-title">CONTACT US</h4>
                     <ul class="list-unstyled contact-links">
                       <li>
                         <img src="./assets/img/phone-icon.svg" alt="" />
 
-                        <div>+977 61 576834, 585357</div>
+                        <div>+977 9815645856</div>
                       </li>
                       <li>
                         <img src="./assets/img/mail-icon.svg" alt="" />
 
                         <div>
-                          <a
-                            href="mailto:agrobiodiversityconf_secretariat@libird.org"
-                            >agrobiodiversityconf_secretariat@libird.org</a
+                          <a href="mailto:srimatrixhealth@gmail.com"
+                            >srimatrixhealth@gmail.com</a
                           >
                         </div>
                       </li>
 
                       <li>
                         <img src="./assets/img/location-icon.svg" alt="" />
-                        <div>
-                          Head Office . PO Box 324, Ranipauwa, Pokhara, Nepal
-                        </div>
+                        <div>Kathmandu, Nepal</div>
                       </li>
                     </ul>
                   </aside>
@@ -809,14 +719,17 @@
               </div>
             </div>
           </div>
-          <img src="./assets/img/footer-img.png" class="w-100" alt="" />
+
           <div class="footer-bottom">
             <div
               class="container py-3 d-flex gap-3 justify-content-center align-items-center flex-column flex-lg-row text-center"
             >
               <div class="copyright-text">
-                Copyright © 2024 Agrodiversity . All Rights Reserved | Developed
-                by <a href="#">Ikigai Tech</a>
+                <p class="mb-2">
+                  Copyright © 2023 Disability Info Platform . All Right
+                  Reserved.
+                </p>
+                <p class="mb-0">Developed by <a href="#">Ikigai Tech</a></p>
               </div>
             </div>
           </div>
